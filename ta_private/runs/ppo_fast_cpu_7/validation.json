@@ -1,0 +1,1652 @@
+[
+  {
+    "steps": 20480,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "off_track",
+        "progress": 0.406993133544552,
+        "gates": 3,
+        "time_s": 7.3599999999998875
+      },
+      {
+        "seed": 101,
+        "status": "off_track",
+        "progress": 0.4070231783298882,
+        "gates": 3,
+        "time_s": 7.3599999999998875
+      },
+      {
+        "seed": 102,
+        "status": "off_track",
+        "progress": 0.4069883944393883,
+        "gates": 3,
+        "time_s": 7.459999999999885
+      },
+      {
+        "seed": 103,
+        "status": "off_track",
+        "progress": 0.40682352574305347,
+        "gates": 3,
+        "time_s": 7.489999999999885
+      },
+      {
+        "seed": 104,
+        "status": "off_track",
+        "progress": 0.4067450780038442,
+        "gates": 3,
+        "time_s": 7.339999999999888
+      },
+      {
+        "seed": 105,
+        "status": "off_track",
+        "progress": 0.4072261240411972,
+        "gates": 3,
+        "time_s": 7.349999999999888
+      },
+      {
+        "seed": 106,
+        "status": "off_track",
+        "progress": 0.40692488657167475,
+        "gates": 3,
+        "time_s": 7.399999999999887
+      },
+      {
+        "seed": 107,
+        "status": "off_track",
+        "progress": 0.4066226282858893,
+        "gates": 3,
+        "time_s": 7.379999999999887
+      },
+      {
+        "seed": 108,
+        "status": "off_track",
+        "progress": 0.4070577899831752,
+        "gates": 3,
+        "time_s": 7.349999999999888
+      },
+      {
+        "seed": 109,
+        "status": "off_track",
+        "progress": 0.4069047571092445,
+        "gates": 3,
+        "time_s": 7.369999999999887
+      },
+      {
+        "seed": 110,
+        "status": "off_track",
+        "progress": 0.4068944136572426,
+        "gates": 3,
+        "time_s": 7.349999999999888
+      },
+      {
+        "seed": 111,
+        "status": "off_track",
+        "progress": 0.40700879093689196,
+        "gates": 3,
+        "time_s": 7.539999999999884
+      },
+      {
+        "seed": 112,
+        "status": "off_track",
+        "progress": 0.40688186731049814,
+        "gates": 3,
+        "time_s": 7.419999999999886
+      },
+      {
+        "seed": 113,
+        "status": "off_track",
+        "progress": 0.4069637268815863,
+        "gates": 3,
+        "time_s": 7.559999999999883
+      },
+      {
+        "seed": 114,
+        "status": "off_track",
+        "progress": 0.4069566379684393,
+        "gates": 3,
+        "time_s": 7.419999999999886
+      },
+      {
+        "seed": 115,
+        "status": "off_track",
+        "progress": 0.40697603174409586,
+        "gates": 3,
+        "time_s": 7.3599999999998875
+      },
+      {
+        "seed": 116,
+        "status": "off_track",
+        "progress": 0.4072206008394843,
+        "gates": 3,
+        "time_s": 7.419999999999886
+      },
+      {
+        "seed": 117,
+        "status": "off_track",
+        "progress": 0.4066075242886772,
+        "gates": 3,
+        "time_s": 7.389999999999887
+      },
+      {
+        "seed": 118,
+        "status": "off_track",
+        "progress": 0.05676606889766539,
+        "gates": 0,
+        "time_s": 1.2100000000000009
+      },
+      {
+        "seed": 119,
+        "status": "off_track",
+        "progress": 0.06133549710352318,
+        "gates": 0,
+        "time_s": 1.310000000000001
+      }
+    ],
+    "finish_rate": 0.0,
+    "mean_progress": 0.3721460327840006,
+    "median_lap_s": null,
+    "off_track_rate": 1.0,
+    "timeout_rate": 0.0
+  },
+  {
+    "steps": 40960,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.699999999999838
+      },
+      {
+        "seed": 101,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.669999999999838
+      },
+      {
+        "seed": 102,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.689999999999838
+      },
+      {
+        "seed": 103,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.679999999999838
+      },
+      {
+        "seed": 104,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.62999999999984
+      },
+      {
+        "seed": 105,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.699999999999838
+      },
+      {
+        "seed": 106,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.60999999999984
+      },
+      {
+        "seed": 107,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.679999999999838
+      },
+      {
+        "seed": 108,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.689999999999838
+      },
+      {
+        "seed": 109,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.679999999999838
+      },
+      {
+        "seed": 110,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.60999999999984
+      },
+      {
+        "seed": 111,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.669999999999838
+      },
+      {
+        "seed": 112,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.689999999999838
+      },
+      {
+        "seed": 113,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.709999999999837
+      },
+      {
+        "seed": 114,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.669999999999838
+      },
+      {
+        "seed": 115,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.649999999999839
+      },
+      {
+        "seed": 116,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.679999999999838
+      },
+      {
+        "seed": 117,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.649999999999839
+      },
+      {
+        "seed": 118,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.60999999999984
+      },
+      {
+        "seed": 119,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.61999999999984
+      }
+    ],
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 9.674999999999837,
+    "off_track_rate": 0.0,
+    "timeout_rate": 0.0
+  },
+  {
+    "steps": 61440,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.549999999999862
+      },
+      {
+        "seed": 101,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 102,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.63999999999986
+      },
+      {
+        "seed": 103,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.569999999999862
+      },
+      {
+        "seed": 104,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.549999999999862
+      },
+      {
+        "seed": 105,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.489999999999863
+      },
+      {
+        "seed": 106,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.549999999999862
+      },
+      {
+        "seed": 107,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.509999999999863
+      },
+      {
+        "seed": 108,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.519999999999863
+      },
+      {
+        "seed": 109,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.519999999999863
+      },
+      {
+        "seed": 110,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.539999999999862
+      },
+      {
+        "seed": 111,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.559999999999862
+      },
+      {
+        "seed": 112,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 113,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.559999999999862
+      },
+      {
+        "seed": 114,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.509999999999863
+      },
+      {
+        "seed": 115,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.569999999999862
+      },
+      {
+        "seed": 116,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.539999999999862
+      },
+      {
+        "seed": 117,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.569999999999862
+      },
+      {
+        "seed": 118,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.459999999999864
+      },
+      {
+        "seed": 119,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.479999999999864
+      }
+    ],
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 8.539999999999862,
+    "off_track_rate": 0.0,
+    "timeout_rate": 0.0
+  },
+  {
+    "steps": 81920,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.589999999999861
+      },
+      {
+        "seed": 101,
+        "status": "off_track",
+        "progress": 0.501933933774602,
+        "gates": 4,
+        "time_s": 4.569999999999947
+      },
+      {
+        "seed": 102,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.64999999999986
+      },
+      {
+        "seed": 103,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.549999999999862
+      },
+      {
+        "seed": 104,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.699999999999859
+      },
+      {
+        "seed": 105,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.559999999999862
+      },
+      {
+        "seed": 106,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.68999999999986
+      },
+      {
+        "seed": 107,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.599999999999861
+      },
+      {
+        "seed": 108,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.66999999999986
+      },
+      {
+        "seed": 109,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.65999999999986
+      },
+      {
+        "seed": 110,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 111,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.499999999999863
+      },
+      {
+        "seed": 112,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.519999999999863
+      },
+      {
+        "seed": 113,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.589999999999861
+      },
+      {
+        "seed": 114,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.62999999999986
+      },
+      {
+        "seed": 115,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.589999999999861
+      },
+      {
+        "seed": 116,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.599999999999861
+      },
+      {
+        "seed": 117,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.60999999999986
+      },
+      {
+        "seed": 118,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 119,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      }
+    ],
+    "finish_rate": 0.95,
+    "mean_progress": 0.9750966966887301,
+    "median_lap_s": 8.589999999999861,
+    "off_track_rate": 0.05,
+    "timeout_rate": 0.0
+  },
+  {
+    "steps": 102400,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.61999999999986
+      },
+      {
+        "seed": 101,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 102,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.60999999999986
+      },
+      {
+        "seed": 103,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.539999999999862
+      },
+      {
+        "seed": 104,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.60999999999986
+      },
+      {
+        "seed": 105,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.519999999999863
+      },
+      {
+        "seed": 106,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.68999999999986
+      },
+      {
+        "seed": 107,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.62999999999986
+      },
+      {
+        "seed": 108,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 109,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.65999999999986
+      },
+      {
+        "seed": 110,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.959999999999853
+      },
+      {
+        "seed": 111,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.64999999999986
+      },
+      {
+        "seed": 112,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.959999999999853
+      },
+      {
+        "seed": 113,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.64999999999986
+      },
+      {
+        "seed": 114,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.65999999999986
+      },
+      {
+        "seed": 115,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.61999999999986
+      },
+      {
+        "seed": 116,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.62999999999986
+      },
+      {
+        "seed": 117,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.62999999999986
+      },
+      {
+        "seed": 118,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.489999999999863
+      },
+      {
+        "seed": 119,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.589999999999861
+      }
+    ],
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 8.624999999999861,
+    "off_track_rate": 0.0,
+    "timeout_rate": 0.0
+  },
+  {
+    "steps": 122880,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "off_track",
+        "progress": 0.5005908309750825,
+        "gates": 4,
+        "time_s": 4.459999999999949
+      },
+      {
+        "seed": 101,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.469999999999864
+      },
+      {
+        "seed": 102,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.65999999999986
+      },
+      {
+        "seed": 103,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.599999999999861
+      },
+      {
+        "seed": 104,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.67999999999986
+      },
+      {
+        "seed": 105,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.459999999999864
+      },
+      {
+        "seed": 106,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 107,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.569999999999862
+      },
+      {
+        "seed": 108,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.549999999999862
+      },
+      {
+        "seed": 109,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.499999999999863
+      },
+      {
+        "seed": 110,
+        "status": "off_track",
+        "progress": 0.5060927486752643,
+        "gates": 4,
+        "time_s": 4.599999999999946
+      },
+      {
+        "seed": 111,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.549999999999862
+      },
+      {
+        "seed": 112,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.559999999999862
+      },
+      {
+        "seed": 113,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.68999999999986
+      },
+      {
+        "seed": 114,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.62999999999986
+      },
+      {
+        "seed": 115,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.499999999999863
+      },
+      {
+        "seed": 116,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.589999999999861
+      },
+      {
+        "seed": 117,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.499999999999863
+      },
+      {
+        "seed": 118,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.60999999999986
+      },
+      {
+        "seed": 119,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.499999999999863
+      }
+    ],
+    "finish_rate": 0.9,
+    "mean_progress": 0.9503341789825173,
+    "median_lap_s": 8.554999999999861,
+    "off_track_rate": 0.1,
+    "timeout_rate": 0.0
+  },
+  {
+    "steps": 143360,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.789999999999857
+      },
+      {
+        "seed": 101,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.069999999999851
+      },
+      {
+        "seed": 102,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.709999999999859
+      },
+      {
+        "seed": 103,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.879999999999855
+      },
+      {
+        "seed": 104,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.389999999999844
+      },
+      {
+        "seed": 105,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.899999999999855
+      },
+      {
+        "seed": 106,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.63999999999986
+      },
+      {
+        "seed": 107,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.969999999999853
+      },
+      {
+        "seed": 108,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.10999999999985
+      },
+      {
+        "seed": 109,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.179999999999849
+      },
+      {
+        "seed": 110,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.909999999999854
+      },
+      {
+        "seed": 111,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.709999999999859
+      },
+      {
+        "seed": 112,
+        "status": "off_track",
+        "progress": 0.31832288538723685,
+        "gates": 2,
+        "time_s": 3.4399999999999706
+      },
+      {
+        "seed": 113,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.359999999999845
+      },
+      {
+        "seed": 114,
+        "status": "off_track",
+        "progress": 0.3169281929113226,
+        "gates": 2,
+        "time_s": 3.4999999999999694
+      },
+      {
+        "seed": 115,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.929999999999854
+      },
+      {
+        "seed": 116,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.729999999999858
+      },
+      {
+        "seed": 117,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.219999999999848
+      },
+      {
+        "seed": 118,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.489999999999842
+      },
+      {
+        "seed": 119,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.709999999999859
+      }
+    ],
+    "finish_rate": 0.9,
+    "mean_progress": 0.9317625539149279,
+    "median_lap_s": 8.919999999999854,
+    "off_track_rate": 0.1,
+    "timeout_rate": 0.0
+  },
+  {
+    "steps": 163840,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.409999999999865
+      },
+      {
+        "seed": 101,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.409999999999844
+      },
+      {
+        "seed": 102,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.589999999999861
+      },
+      {
+        "seed": 103,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.67999999999986
+      },
+      {
+        "seed": 104,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.549999999999862
+      },
+      {
+        "seed": 105,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.459999999999864
+      },
+      {
+        "seed": 106,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.759999999999858
+      },
+      {
+        "seed": 107,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.519999999999863
+      },
+      {
+        "seed": 108,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.489999999999863
+      },
+      {
+        "seed": 109,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.769999999999836
+      },
+      {
+        "seed": 110,
+        "status": "off_track",
+        "progress": 0.40423932462662115,
+        "gates": 3,
+        "time_s": 4.459999999999949
+      },
+      {
+        "seed": 111,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.66999999999986
+      },
+      {
+        "seed": 112,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.739999999999858
+      },
+      {
+        "seed": 113,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.579999999999862
+      },
+      {
+        "seed": 114,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.489999999999863
+      },
+      {
+        "seed": 115,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.979999999999853
+      },
+      {
+        "seed": 116,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.899999999999855
+      },
+      {
+        "seed": 117,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.999999999999853
+      },
+      {
+        "seed": 118,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.14999999999985
+      },
+      {
+        "seed": 119,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.059999999999851
+      }
+    ],
+    "finish_rate": 0.95,
+    "mean_progress": 0.9702119662313311,
+    "median_lap_s": 8.67999999999986,
+    "off_track_rate": 0.05,
+    "timeout_rate": 0.0
+  },
+  {
+    "steps": 184320,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.819999999999856
+      },
+      {
+        "seed": 101,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.449999999999864
+      },
+      {
+        "seed": 102,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.579999999999862
+      },
+      {
+        "seed": 103,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.459999999999864
+      },
+      {
+        "seed": 104,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.569999999999862
+      },
+      {
+        "seed": 105,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.479999999999864
+      },
+      {
+        "seed": 106,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.09999999999985
+      },
+      {
+        "seed": 107,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.739999999999858
+      },
+      {
+        "seed": 108,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.459999999999864
+      },
+      {
+        "seed": 109,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.61999999999986
+      },
+      {
+        "seed": 110,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.519999999999863
+      },
+      {
+        "seed": 111,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 9.229999999999848
+      },
+      {
+        "seed": 112,
+        "status": "off_track",
+        "progress": 0.4899364585174349,
+        "gates": 3,
+        "time_s": 4.699999999999944
+      },
+      {
+        "seed": 113,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.65999999999986
+      },
+      {
+        "seed": 114,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.509999999999863
+      },
+      {
+        "seed": 115,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 116,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.539999999999862
+      },
+      {
+        "seed": 117,
+        "status": "off_track",
+        "progress": 0.4893090684509962,
+        "gates": 3,
+        "time_s": 4.87999999999994
+      },
+      {
+        "seed": 118,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.509999999999863
+      },
+      {
+        "seed": 119,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.579999999999862
+      }
+    ],
+    "finish_rate": 0.9,
+    "mean_progress": 0.9489622763484216,
+    "median_lap_s": 8.554999999999861,
+    "off_track_rate": 0.1,
+    "timeout_rate": 0.0
+  },
+  {
+    "steps": 204800,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.599999999999861
+      },
+      {
+        "seed": 101,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.489999999999863
+      },
+      {
+        "seed": 102,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.509999999999863
+      },
+      {
+        "seed": 103,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.569999999999862
+      },
+      {
+        "seed": 104,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 105,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.549999999999862
+      },
+      {
+        "seed": 106,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.489999999999863
+      },
+      {
+        "seed": 107,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.519999999999863
+      },
+      {
+        "seed": 108,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.479999999999864
+      },
+      {
+        "seed": 109,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 110,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.469999999999864
+      },
+      {
+        "seed": 111,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.509999999999863
+      },
+      {
+        "seed": 112,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.63999999999986
+      },
+      {
+        "seed": 113,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.539999999999862
+      },
+      {
+        "seed": 114,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.499999999999863
+      },
+      {
+        "seed": 115,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.559999999999862
+      },
+      {
+        "seed": 116,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.539999999999862
+      },
+      {
+        "seed": 117,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.479999999999864
+      },
+      {
+        "seed": 118,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.499999999999863
+      },
+      {
+        "seed": 119,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.439999999999864
+      }
+    ],
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 8.514999999999862,
+    "off_track_rate": 0.0,
+    "timeout_rate": 0.0
+  },
+  {
+    "steps": 204800,
+    "episodes": [
+      {
+        "seed": 100,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.519999999999863
+      },
+      {
+        "seed": 101,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.429999999999865
+      },
+      {
+        "seed": 102,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.489999999999863
+      },
+      {
+        "seed": 103,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.66999999999986
+      },
+      {
+        "seed": 104,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.519999999999863
+      },
+      {
+        "seed": 105,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.529999999999863
+      },
+      {
+        "seed": 106,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.589999999999861
+      },
+      {
+        "seed": 107,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.519999999999863
+      },
+      {
+        "seed": 108,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.469999999999864
+      },
+      {
+        "seed": 109,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.599999999999861
+      },
+      {
+        "seed": 110,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.469999999999864
+      },
+      {
+        "seed": 111,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.569999999999862
+      },
+      {
+        "seed": 112,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.509999999999863
+      },
+      {
+        "seed": 113,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.559999999999862
+      },
+      {
+        "seed": 114,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.62999999999986
+      },
+      {
+        "seed": 115,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.66999999999986
+      },
+      {
+        "seed": 116,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.65999999999986
+      },
+      {
+        "seed": 117,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.559999999999862
+      },
+      {
+        "seed": 118,
+        "status": "off_track",
+        "progress": 0.4943188484198234,
+        "gates": 3,
+        "time_s": 4.42999999999995
+      },
+      {
+        "seed": 119,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.559999999999862
+      }
+    ],
+    "finish_rate": 0.95,
+    "mean_progress": 0.9747159424209911,
+    "median_lap_s": 8.559999999999862,
+    "off_track_rate": 0.05,
+    "timeout_rate": 0.0
+  }
+]

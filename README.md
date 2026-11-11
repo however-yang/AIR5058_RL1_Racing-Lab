@@ -1,76 +1,43 @@
 # AIR5058 RL1 · MuJoCo 赛车实验
 
-用强化学习训练一辆四轮小车，在统一的车辆和赛道规则下尽快完成一圈。你需要实现奖励，训练一个可复现的基线，再用相同的环境交互预算验证一项改进。
+本工作区包含课程起步代码与 TA 实验。学生从两条赛道、统一物理环境和 PPO/SAC 训练入口开始，在相同交互预算下比较自己设计的奖励或算法。TA 实验用额外的赛道参考线、TA 奖励和独立起点分析稳定性与圈速。
 
-## 安装
+| 入口 | 内容 |
+| --- | --- |
+| [早期作业设计](MuJoCo赛车作业设计.md) | 课程任务和交付方案的原始草稿 |
+| [学生作业说明](student/README.md) | 安装、首跑、训练、评测、接口与评分 |
+| [TA 实验说明](ta_private/README.md) | 代码职责、主要训练命令与复现入口 |
+| [TA 设计说明](ta_private/DESIGN.md) | 车辆规则、参考线、各版奖励与策略控制 |
+| [TA 版本对照](ta_private/RESULTS.md) | 上海与斯帕成绩、固定分段、完赛门槛和历史数据 |
+| [学生发布脚本](scripts/build_student_release.py) | 根据学生文件清单生成 ZIP、核对文件或导出 GitHub 仓库内容 |
 
-克隆仓库或解压课程 ZIP，在含有 `environment.yml` 的目录运行。
+GitHub 提供源码、实验记录和历史对照，策略权重在本地训练生成。学生从 `student/` 开始，TA 从仓库根目录运行实验。原有的根目录训练、评测和 Conda 命令也可继续使用。
 
-```bash
-conda env create -f environment.yml
-conda activate mujoco-racing
+## 目录
+
+```text
+student/
+  racing/                 MuJoCo 车辆、赛道、环境和奖励接口
+  train.py                公开训练入口
+  evaluate.py             公开评测与回放
+ta_private/
+  experiments/            共用评测、分段计时和冻结资产校验
+  train_*.py              TA 训练入口
+  compare_*.py            同批次对照
+  *_comparison/           逐圈数据、冻结权重和赛道参考线
+  runs/                   训练日志与检查点
+  v1_archive/             旧版环境与历史资产
+scripts/                  学生版构建与导出
 ```
 
-`--device auto` 会在可用时选择 CUDA，否则使用 CPU。若显式使用 `--device cuda`，先安装适合本机的 CUDA 版 PyTorch。MuJoCo 物理在 CPU 上运行，GPU 用于策略网络。 [PyTorch 安装说明](https://pytorch.org/get-started/locally/)
+## 发布学生版
 
-## 跑通第一个实验
+从项目根目录运行。发布脚本只读取学生文件清单，ZIP 与 GitHub 源码可由同一份学生文件重建。
 
-1. 先检查训练与保存能正常运行。下列命令跑一个 PPO 采样批次，使用起步奖励。
+```bash
+python scripts/build_student_release.py
+python scripts/build_student_release.py --check
+python scripts/build_student_release.py --export PATH_TO_PUBLIC_GIT_CHECKOUT
+```
 
-   ```bash
-   python train.py --algo ppo --device cpu --envs 1 --steps 512 --eval-every 512 --out runs/smoke
-   ```
-
-2. 在 [`racing/reward.py`](racing/reward.py) 实现自己的奖励，再训练基线。起步奖励只在完赛时给分。
-
-   ```bash
-   python train.py --algo ppo --device auto --steps 204800 --seed 7 --out runs/ppo7
-   ```
-
-3. 用公开评测入口生成逐回合数据和回放。
-
-   ```bash
-   python evaluate.py --algo ppo --model runs/ppo7/best.zip --layout shanghai --output runs/ppo7/shanghai.json
-   python evaluate.py --algo ppo --model runs/ppo7/best.zip --layout spa --output runs/ppo7/spa.json
-   python evaluate.py --algo ppo --model runs/ppo7/best.zip --layout shanghai --camera chase --replay runs/ppo7/lap.gif
-   ```
-
-| 选项 | 用法 |
-| --- | --- |
-| PPO 或 SAC | 训练用 `--algo ppo` 或 `--algo sac`，评测传入相同的算法 |
-| 上海或斯帕 | 上海用于训练和公开验证。用 `--layout spa` 检查跨赛道表现 |
-| 并行环境 | 用 `--envs` 设置数量，加 `--parallel` 可在多个进程中运行物理 |
-| 回放视角 | `--camera overview` 看全景，`--camera chase` 看跟车。GIF 需要可用的 OpenGL 环境 |
-
-每次训练使用新的 `--out` 目录。目录内有 `config.json`、`runtime.json`、`validation.json`、训练回合日志、`best.zip` 和 `final.zip`。PPO 按整批采样，做等预算对照时以 `runtime.json` 记录的实际步数为准。
-
-## 文件结构
-
-| 文件 | 职责 |
-| --- | --- |
-| [`train.py`](train.py) | PPO、SAC 训练与验证，保存最佳及最终权重 |
-| [`evaluate.py`](evaluate.py) | 固定起点评测、圈速统计和 GIF 回放 |
-| [`racing/reward.py`](racing/reward.py) | 作业的奖励入口和各信号的单位 |
-| [`racing/env.py`](racing/env.py) | Gymnasium 环境、观测和比赛判定 |
-| [`racing/vehicle.py`](racing/vehicle.py) 与 [`racing/car.xml`](racing/car.xml) | 车辆模型、转向、驱动和轮地接触 |
-| [`racing/track.py`](racing/track.py) 与 [`racing/visuals.py`](racing/visuals.py) | 赛道几何、检查线和场景显示 |
-
-## 比赛规则与接口
-
-- 策略每 50 ms 输出一次动作 `[steering, speed]`，两个分量都在 `[-1, 1]`。正转向向左，速度指令线性映射到 0–5 m/s。车辆实际速度由执行器与轮地接触决定。
-- 观测共 20 维。前 10 维是 5 个前视点在车体坐标系中的坐标除以 5 m。后 10 维依次是归一化横向误差、航向误差正弦和余弦、归一化纵向和横向速度、偏航角速度除以 5 rad/s、归一化左右前轮角、归一化虚拟转角和归一化目标速度。
-- 车辆须按顺序正向通过 8 道检查线（含终点）。车体或车轮越界、持续超速、翻车或 48 秒内未完成均为失败。圈速统计使用成功完赛的回合。
-- 你可以修改奖励、网络、算法和训练设置。正式评分会用课程原版的车辆、赛道、观测和判定规则重新加载策略。
-
-赛道分别以上海国际赛车场和斯帕赛道为灵感。上海场景约 136.4 m，包含收紧首弯、内场 S 弯、长后直道和发卡弯。 [上海赛道参考](https://www.formula1.com/en/information/china-shanghai-interational-circuit-shanghai.7ESK3ZQ5DHqihx3DpPZKWL)
-
-## 提交与评分
-
-提交基线和改进版的配置、训练种子、实际交互步数、可加载权重、公开评测 JSON、训练曲线与简短分析。解释一项对照改动和一个具体失败回合。
-
-| 项目 | 分值 | 判据 |
-| --- | ---: | --- |
-| 可复现性 | 20 | 权重可加载，配置与复现步骤齐全 |
-| 控制表现 | 35 | 完赛率 20 分，平均最大合法进度 10 分。完赛率达到 95% 时，中位圈速从 44 秒到 29 秒线性换算 0–5 分 |
-| 对照实验 | 30 | 训练预算相同，改动明确，结果支持结论 |
-| 失败分析 | 15 | 能用逐回合数据或回放定位失败案例 |
+可直接解压 [学生起步 ZIP](mujoco-racing-student.zip) 取得独立的课程框架。

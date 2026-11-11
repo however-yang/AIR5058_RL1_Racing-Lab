@@ -1,0 +1,15 @@
+{
+  "layout": "shanghai",
+  "algorithm": "TD3",
+  "seed": 89,
+  "steps": 196608,
+  "device": "cpu",
+  "envs": 6,
+  "net_arch": [
+    96,
+    96
+  ],
+  "lateral_limit": 7.7,
+  "observation": 36,
+  "reward": "time"
+}

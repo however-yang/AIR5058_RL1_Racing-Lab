@@ -1,0 +1,17 @@
+{
+  "steps": 131072,
+  "envs": 4,
+  "seed": 203,
+  "lane_limit": 0.0,
+  "residual_scale": [
+    0.045000000000000005,
+    0.06300000000000001
+  ],
+  "low_grip_every": 4,
+  "low_grip_mu": 0.82,
+  "source": {
+    "line": "bdab3ba8ddb5ddeef87dfbe7b4b426338768ec460ee01e6672d454f6b4d37afc",
+    "checkpoint": "55de3df34c7b7db2d822b6432751eea8aab81058abf2c928d793f763bac5fbf5"
+  },
+  "learning_rate": 7.5e-05
+}

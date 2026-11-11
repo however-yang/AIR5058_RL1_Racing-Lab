@@ -1,0 +1,14 @@
+{
+  "layout": "shanghai",
+  "algorithm": "SAC",
+  "seed": 51,
+  "steps": 327680,
+  "device": "cpu",
+  "envs": 8,
+  "net_arch": [
+    96,
+    96
+  ],
+  "lateral_limit": 7.1,
+  "observation": 36
+}

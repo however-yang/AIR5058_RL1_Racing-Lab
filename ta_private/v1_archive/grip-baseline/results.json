@@ -1,0 +1,1385 @@
+{
+  "physics_version": "grip-ackermann-v1",
+  "training_layout": "shanghai",
+  "transfer_layout": "spa",
+  "checkpoint_sha256": "3025a0e785661c241d08358da41af46c28fa148809837d31d9f7697d83f4092c",
+  "winner": {
+    "run": "ta_private\\runs\\physics_progress_7",
+    "config": {
+      "algo": "ppo",
+      "device": "cpu",
+      "envs": 4,
+      "parallel": true,
+      "steps": 204800,
+      "eval_every": 40960,
+      "seed": 7,
+      "out": "ta_private\\runs\\physics_progress_7",
+      "profile": "progress",
+      "holdout": null,
+      "replay": null,
+      "validation_layout": "spa",
+      "device_used": "cpu",
+      "settings": {
+        "policy_kwargs": {
+          "net_arch": [
+            64,
+            64
+          ]
+        },
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "n_steps": 512,
+        "batch_size": 256,
+        "n_epochs": 6
+      },
+      "validation_seeds": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    "runtime": {
+      "steps": 204800,
+      "wall_seconds": 214.24778719991446
+    },
+    "shanghai_validation": {
+      "steps": 122880,
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 32.37466520261815,
+      "off_track_rate": 0.0,
+      "timeout_rate": 0.0,
+      "overspeed_rate": 0.0,
+      "rollover_rate": 0.0,
+      "invalid_action_rate": 0.0
+    },
+    "shared_budget": {
+      "steps": 81920,
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 32.718010812855965,
+      "off_track_rate": 0.0,
+      "timeout_rate": 0.0,
+      "overspeed_rate": 0.0,
+      "rollover_rate": 0.0,
+      "invalid_action_rate": 0.0
+    }
+  },
+  "candidates": [
+    {
+      "run": "ta_private\\runs\\physics_progress_7",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": true,
+        "steps": 204800,
+        "eval_every": 40960,
+        "seed": 7,
+        "out": "ta_private\\runs\\physics_progress_7",
+        "profile": "progress",
+        "holdout": null,
+        "replay": null,
+        "validation_layout": "spa",
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 214.24778719991446
+      },
+      "shanghai_validation": {
+        "steps": 122880,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 32.37466520261815,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "shared_budget": {
+        "steps": 81920,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 32.718010812855965,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\physics_racing_7",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": true,
+        "steps": 204800,
+        "eval_every": 40960,
+        "seed": 7,
+        "out": "ta_private\\runs\\physics_racing_7",
+        "profile": "racing",
+        "holdout": null,
+        "replay": null,
+        "validation_layout": "spa",
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 223.45620870008133
+      },
+      "shanghai_validation": {
+        "steps": 163840,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 32.37615316875106,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "shared_budget": {
+        "steps": 81920,
+        "finish_rate": 0.95,
+        "mean_progress": 0.9701424918909393,
+        "median_lap_s": 32.97484815210926,
+        "off_track_rate": 0.05,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\physics_progress_13",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 81920,
+        "eval_every": 40960,
+        "seed": 13,
+        "out": "ta_private\\runs\\physics_progress_13",
+        "profile": "progress",
+        "holdout": null,
+        "replay": null,
+        "validation_layout": "spa",
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 81920,
+        "wall_seconds": 133.67993109999225
+      },
+      "shanghai_validation": {
+        "steps": 40960,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 34.3021936535455,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "shared_budget": {
+        "steps": 81920,
+        "finish_rate": 0.2,
+        "mean_progress": 0.5237597464263768,
+        "median_lap_s": 32.57635277621014,
+        "off_track_rate": 0.8,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\physics_racing_13",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 81920,
+        "eval_every": 40960,
+        "seed": 13,
+        "out": "ta_private\\runs\\physics_racing_13",
+        "profile": "racing",
+        "holdout": null,
+        "replay": null,
+        "validation_layout": "spa",
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 81920,
+        "wall_seconds": 145.8901845999062
+      },
+      "shanghai_validation": {
+        "steps": 40960,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 35.31273730295351,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "shared_budget": {
+        "steps": 81920,
+        "finish_rate": 0.75,
+        "mean_progress": 0.8515713876783865,
+        "median_lap_s": 32.60251253580014,
+        "off_track_rate": 0.25,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\physics_progress_23",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 81920,
+        "eval_every": 40960,
+        "seed": 23,
+        "out": "ta_private\\runs\\physics_progress_23",
+        "profile": "progress",
+        "holdout": null,
+        "replay": null,
+        "validation_layout": "spa",
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 81920,
+        "wall_seconds": 137.6778535998892
+      },
+      "shanghai_validation": {
+        "steps": 40960,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 35.711977818752985,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "shared_budget": {
+        "steps": 81920,
+        "finish_rate": 0.2,
+        "mean_progress": 0.4755500140077757,
+        "median_lap_s": 33.344004899434154,
+        "off_track_rate": 0.8,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\physics_racing_23",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 81920,
+        "eval_every": 40960,
+        "seed": 23,
+        "out": "ta_private\\runs\\physics_racing_23",
+        "profile": "racing",
+        "holdout": null,
+        "replay": null,
+        "validation_layout": "spa",
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 81920,
+        "wall_seconds": 148.20956119988114
+      },
+      "shanghai_validation": {
+        "steps": 81920,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 32.780157856263244,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "shared_budget": {
+        "steps": 81920,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 32.780157856263244,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      }
+    }
+  ],
+  "shanghai_holdout": {
+    "episodes": [
+      {
+        "seed": 1500,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.38352292284233,
+        "peak_speed_mps": 4.590484401653323,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1501,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.337006887783396,
+        "peak_speed_mps": 4.593256615081308,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1502,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.357979082268805,
+        "peak_speed_mps": 4.5951753879118815,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1503,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.31799058046943,
+        "peak_speed_mps": 4.593522682311085,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1504,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.45950343648897,
+        "peak_speed_mps": 4.5933004402170585,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1505,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.290201803284695,
+        "peak_speed_mps": 4.594834062907614,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1506,
+        "status": "off_track",
+        "progress": 0.43544433338414296,
+        "gates": 3,
+        "time_s": 14.929999999999726,
+        "peak_speed_mps": 4.547073335845206,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1507,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.31250882359537,
+        "peak_speed_mps": 4.593391945743759,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1508,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.34699018294765,
+        "peak_speed_mps": 4.590448963600432,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1509,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.50545793949763,
+        "peak_speed_mps": 4.593447260969136,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1510,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.479482066134445,
+        "peak_speed_mps": 4.595029135521609,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1511,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.28764736030014,
+        "peak_speed_mps": 4.592863615758793,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1512,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.204539120342304,
+        "peak_speed_mps": 4.593699900113998,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1513,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.35198784104397,
+        "peak_speed_mps": 4.59322463489287,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1514,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.35568663790883,
+        "peak_speed_mps": 4.590937505284635,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1515,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.334977140299124,
+        "peak_speed_mps": 4.594867451809205,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1516,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.405647069101875,
+        "peak_speed_mps": 4.59308349454445,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1517,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.35402167861832,
+        "peak_speed_mps": 4.5950766530389355,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1518,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.42092070964286,
+        "peak_speed_mps": 4.5951412360429575,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1519,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.48002594956287,
+        "peak_speed_mps": 4.593103622912815,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1520,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.3519664178874,
+        "peak_speed_mps": 4.59110366151623,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1521,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.52542279000346,
+        "peak_speed_mps": 4.590196763545383,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1522,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.518889538095124,
+        "peak_speed_mps": 4.594868054088997,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1523,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.41612223745744,
+        "peak_speed_mps": 4.595031599154575,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1524,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.41974149783067,
+        "peak_speed_mps": 4.594521631578275,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1525,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.547007609930745,
+        "peak_speed_mps": 4.594795973462257,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1526,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.559701127423544,
+        "peak_speed_mps": 4.5950948200347606,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1527,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.43389001633261,
+        "peak_speed_mps": 4.593567194584631,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1528,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.3471861418255,
+        "peak_speed_mps": 4.593527436443666,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1529,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.4455180037042,
+        "peak_speed_mps": 4.594623546438487,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1530,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.43346764646372,
+        "peak_speed_mps": 4.593292769751563,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1531,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.46177635205797,
+        "peak_speed_mps": 4.593349480292936,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1532,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.4450745638229,
+        "peak_speed_mps": 4.593906699694023,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1533,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.39658945734857,
+        "peak_speed_mps": 4.593617627775541,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1534,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.52969360503647,
+        "peak_speed_mps": 4.593382292946211,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1535,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.437049857918716,
+        "peak_speed_mps": 4.592690801020365,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1536,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.32464312169159,
+        "peak_speed_mps": 4.59068793417999,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1537,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.48787842131295,
+        "peak_speed_mps": 4.593083094636359,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1538,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.53744016929709,
+        "peak_speed_mps": 4.593593733483947,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1539,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 32.271691013840716,
+        "peak_speed_mps": 4.59414587886403,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      }
+    ],
+    "finish_rate": 0.975,
+    "mean_progress": 0.9858861083346036,
+    "median_lap_s": 32.41612223745744,
+    "off_track_rate": 0.025,
+    "timeout_rate": 0.0,
+    "overspeed_rate": 0.0,
+    "rollover_rate": 0.0,
+    "invalid_action_rate": 0.0
+  },
+  "spa_transfer": {
+    "episodes": [
+      {
+        "seed": 1500,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.67431622950317,
+        "peak_speed_mps": 4.594220317237303,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1501,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.614764262405235,
+        "peak_speed_mps": 4.5931686646586325,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1502,
+        "status": "off_track",
+        "progress": 0.4755185183893959,
+        "gates": 3,
+        "time_s": 13.649999999999753,
+        "peak_speed_mps": 4.593446482086888,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1503,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.631642199621275,
+        "peak_speed_mps": 4.593385969709658,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1504,
+        "status": "off_track",
+        "progress": 0.47525465604428796,
+        "gates": 3,
+        "time_s": 13.919999999999748,
+        "peak_speed_mps": 4.594414609346266,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1505,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.666769271169702,
+        "peak_speed_mps": 4.590604411093328,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1506,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.591609718858432,
+        "peak_speed_mps": 4.593837170671908,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1507,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.585480819142703,
+        "peak_speed_mps": 4.59243948411129,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1508,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.727419074947644,
+        "peak_speed_mps": 4.592641740609401,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1509,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.730063360828176,
+        "peak_speed_mps": 4.597684739730856,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1510,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.623289635102324,
+        "peak_speed_mps": 4.593375077150666,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1511,
+        "status": "off_track",
+        "progress": 0.48071328377258177,
+        "gates": 3,
+        "time_s": 13.929999999999747,
+        "peak_speed_mps": 4.59304246693387,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1512,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.569845410822907,
+        "peak_speed_mps": 4.593423012843907,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1513,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.716990506678222,
+        "peak_speed_mps": 4.593837609667195,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1514,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.575469087422505,
+        "peak_speed_mps": 4.594315664240215,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1515,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.61745409802655,
+        "peak_speed_mps": 4.5928569127070595,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1516,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.67938813972467,
+        "peak_speed_mps": 4.593485409398682,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1517,
+        "status": "off_track",
+        "progress": 0.4760111683258169,
+        "gates": 3,
+        "time_s": 13.679999999999753,
+        "peak_speed_mps": 4.5932972445744955,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1518,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.566216608929665,
+        "peak_speed_mps": 4.593511335221574,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1519,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.656117659584606,
+        "peak_speed_mps": 4.593439304110142,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1520,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.607724152682437,
+        "peak_speed_mps": 4.593332587246877,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1521,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.5923557373666,
+        "peak_speed_mps": 4.593028924306603,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1522,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.761858751791237,
+        "peak_speed_mps": 4.590518418097636,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1523,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.70061204803255,
+        "peak_speed_mps": 4.591929661653041,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1524,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.581125478407255,
+        "peak_speed_mps": 4.590892815150889,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1525,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.633146739842097,
+        "peak_speed_mps": 4.593220245889071,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1526,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.630882724226634,
+        "peak_speed_mps": 4.591648323595084,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1527,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.57971209165088,
+        "peak_speed_mps": 4.593004510860973,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1528,
+        "status": "off_track",
+        "progress": 0.47755549938050834,
+        "gates": 3,
+        "time_s": 13.78999999999975,
+        "peak_speed_mps": 4.590841935045611,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1529,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.756438617884896,
+        "peak_speed_mps": 4.5906270293552,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1530,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.6429335762878,
+        "peak_speed_mps": 4.593598499369938,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1531,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.65837982537228,
+        "peak_speed_mps": 4.593053773201724,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1532,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.669719015921228,
+        "peak_speed_mps": 4.593220715057269,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1533,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.797740017244667,
+        "peak_speed_mps": 4.593321660749556,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1534,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.791571903831816,
+        "peak_speed_mps": 4.591896492377532,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1535,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.786304026792234,
+        "peak_speed_mps": 4.591090565755734,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1536,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.64317564804679,
+        "peak_speed_mps": 4.593316769135922,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1537,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.83912749856137,
+        "peak_speed_mps": 4.593037419044059,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1538,
+        "status": "off_track",
+        "progress": 0.4773209211238781,
+        "gates": 3,
+        "time_s": 13.699999999999752,
+        "peak_speed_mps": 4.593902674110003,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      },
+      {
+        "seed": 1539,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 26.716209713230246,
+        "peak_speed_mps": 4.592262998121184,
+        "peak_grip": 1.0000000000000004,
+        "peak_slip_mps": null
+      }
+    ],
+    "finish_rate": 0.85,
+    "mean_progress": 0.9215593511759117,
+    "median_lap_s": 26.649646653815697,
+    "off_track_rate": 0.15,
+    "timeout_rate": 0.0,
+    "overspeed_rate": 0.0,
+    "rollover_rate": 0.0,
+    "invalid_action_rate": 0.0
+  }
+}

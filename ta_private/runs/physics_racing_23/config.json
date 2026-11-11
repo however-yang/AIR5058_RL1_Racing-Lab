@@ -1,0 +1,50 @@
+{
+  "algo": "ppo",
+  "device": "cpu",
+  "envs": 4,
+  "parallel": false,
+  "steps": 81920,
+  "eval_every": 40960,
+  "seed": 23,
+  "out": "ta_private\\runs\\physics_racing_23",
+  "profile": "racing",
+  "holdout": null,
+  "replay": null,
+  "validation_layout": "spa",
+  "device_used": "cpu",
+  "settings": {
+    "policy_kwargs": {
+      "net_arch": [
+        64,
+        64
+      ]
+    },
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "n_steps": 512,
+    "batch_size": 256,
+    "n_epochs": 6
+  },
+  "validation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ]
+}

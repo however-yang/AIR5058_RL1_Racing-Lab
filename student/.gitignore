@@ -1,0 +1,8 @@
+.venv/
+.conda/
+.conda-pkgs/
+__pycache__/
+*.py[cod]
+runs/
+.planning/
+ta_private/

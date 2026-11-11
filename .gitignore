@@ -3,6 +3,15 @@
 .conda-pkgs/
 __pycache__/
 *.py[cod]
-runs/
 .planning/
-ta_private/
+/runs/
+/student/runs/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.zip
+!/mujoco-racing-student.zip
+!/ta_private/v1_archive/mujoco-racing-student.zip
+!/ta_private/v1_archive/shanghai-before-physics-student.zip

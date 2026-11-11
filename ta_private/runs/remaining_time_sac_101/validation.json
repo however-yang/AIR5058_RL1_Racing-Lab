@@ -1,0 +1,100 @@
+[
+  {
+    "name": "step_32768",
+    "steps": 32768,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.17556877280764
+    },
+    "stress": {
+      "finish_rate": 0.6666666666666666,
+      "mean_progress": 0.8716256251387668,
+      "median_lap_s": 31.76019361866166
+    }
+  },
+  {
+    "name": "step_65536",
+    "steps": 65536,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 30.971475246223502
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.52622838140714
+    }
+  },
+  {
+    "name": "step_98304",
+    "steps": 98304,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.0130540158462
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.58726079056568
+    }
+  },
+  {
+    "name": "step_131072",
+    "steps": 131072,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.319997859230966
+    },
+    "stress": {
+      "finish_rate": 0.8333333333333334,
+      "mean_progress": 0.8685382272767531,
+      "median_lap_s": 31.53247220746868
+    }
+  },
+  {
+    "name": "step_163840",
+    "steps": 163840,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.744119124813693
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.90865999891546
+    }
+  },
+  {
+    "name": "step_196608",
+    "steps": 196608,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.418253427206643
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.594414876951944
+    }
+  },
+  {
+    "name": "final",
+    "steps": 196608,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.440633673505943
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.629998043634735
+    }
+  }
+]

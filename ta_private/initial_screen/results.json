@@ -1,0 +1,839 @@
+{
+  "candidates": [
+    {
+      "run": "ta_private\\runs\\ppo_fast_cpu_13",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 13,
+        "out": "ta_private\\runs\\ppo_fast_cpu_13",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 120.02627769997343
+      },
+      "best_validation": {
+        "steps": 122880,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 8.409999999999865,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\ppo_fast_cpu_7",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 7,
+        "out": "ta_private\\runs\\ppo_fast_cpu_7",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 112.14353380003013
+      },
+      "best_validation": {
+        "steps": 204800,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 8.514999999999862,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\ppo_fast_cuda_7",
+      "config": {
+        "algo": "ppo",
+        "device": "cuda",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 7,
+        "out": "ta_private\\runs\\ppo_fast_cuda_7",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cuda",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 213.02290849993005
+      },
+      "best_validation": {
+        "steps": 61440,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 8.519999999999863,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\ppo_safe_cpu_23",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 23,
+        "out": "ta_private\\runs\\ppo_safe_cpu_23",
+        "profile": "safe",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 119.467279399978
+      },
+      "best_validation": {
+        "steps": 204800,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 8.534999999999862,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\sac_fast_cuda_7",
+      "config": {
+        "algo": "sac",
+        "device": "cuda",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 7,
+        "out": "ta_private\\runs\\sac_fast_cuda_7",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cuda",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "buffer_size": 200000,
+          "learning_starts": 2048,
+          "batch_size": 256,
+          "train_freq": 4,
+          "gradient_steps": 4
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 583.0726014999673
+      },
+      "best_validation": {
+        "steps": 122880,
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 8.999999999999853,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0
+      }
+    }
+  ],
+  "winner": {
+    "run": "ta_private\\runs\\ppo_fast_cpu_13",
+    "config": {
+      "algo": "ppo",
+      "device": "cpu",
+      "envs": 4,
+      "parallel": false,
+      "steps": 204800,
+      "eval_every": 20480,
+      "seed": 13,
+      "out": "ta_private\\runs\\ppo_fast_cpu_13",
+      "profile": "fast",
+      "holdout": null,
+      "replay": null,
+      "device_used": "cpu",
+      "settings": {
+        "policy_kwargs": {
+          "net_arch": [
+            64,
+            64
+          ]
+        },
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "n_steps": 512,
+        "batch_size": 256,
+        "n_epochs": 6
+      },
+      "validation_seeds": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    "runtime": {
+      "steps": 204800,
+      "wall_seconds": 120.02627769997343
+    },
+    "best_validation": {
+      "steps": 122880,
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 8.409999999999865,
+      "off_track_rate": 0.0,
+      "timeout_rate": 0.0
+    }
+  },
+  "holdout": {
+    "episodes": [
+      {
+        "seed": 900,
+        "status": "off_track",
+        "progress": 0.5015499985941531,
+        "gates": 4,
+        "time_s": 4.519999999999948
+      },
+      {
+        "seed": 901,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.409999999999865
+      },
+      {
+        "seed": 902,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.419999999999865
+      },
+      {
+        "seed": 903,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.479999999999864
+      },
+      {
+        "seed": 904,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.429999999999865
+      },
+      {
+        "seed": 905,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.339999999999867
+      },
+      {
+        "seed": 906,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.359999999999866
+      },
+      {
+        "seed": 907,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.439999999999864
+      },
+      {
+        "seed": 908,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.409999999999865
+      },
+      {
+        "seed": 909,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.479999999999864
+      },
+      {
+        "seed": 910,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.429999999999865
+      },
+      {
+        "seed": 911,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.429999999999865
+      },
+      {
+        "seed": 912,
+        "status": "off_track",
+        "progress": 0.5270188031729417,
+        "gates": 4,
+        "time_s": 4.719999999999944
+      },
+      {
+        "seed": 913,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.469999999999864
+      },
+      {
+        "seed": 914,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.429999999999865
+      },
+      {
+        "seed": 915,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.439999999999864
+      },
+      {
+        "seed": 916,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.449999999999864
+      },
+      {
+        "seed": 917,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.479999999999864
+      },
+      {
+        "seed": 918,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.439999999999864
+      },
+      {
+        "seed": 919,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 8.419999999999865
+      }
+    ],
+    "finish_rate": 0.9,
+    "mean_progress": 0.9514284400883547,
+    "median_lap_s": 8.429999999999865,
+    "off_track_rate": 0.1,
+    "timeout_rate": 0.0
+  },
+  "scripted_holdout": {
+    "4.5": {
+      "episodes": [
+        {
+          "seed": 900,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.459999999999843
+        },
+        {
+          "seed": 901,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.489999999999842
+        },
+        {
+          "seed": 902,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.429999999999843
+        },
+        {
+          "seed": 903,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.479999999999842
+        },
+        {
+          "seed": 904,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.459999999999843
+        },
+        {
+          "seed": 905,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.499999999999842
+        },
+        {
+          "seed": 906,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.479999999999842
+        },
+        {
+          "seed": 907,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.469999999999843
+        },
+        {
+          "seed": 908,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.459999999999843
+        },
+        {
+          "seed": 909,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.469999999999843
+        },
+        {
+          "seed": 910,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.439999999999843
+        },
+        {
+          "seed": 911,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.439999999999843
+        },
+        {
+          "seed": 912,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.519999999999841
+        },
+        {
+          "seed": 913,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.449999999999843
+        },
+        {
+          "seed": 914,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.469999999999843
+        },
+        {
+          "seed": 915,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.439999999999843
+        },
+        {
+          "seed": 916,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.439999999999843
+        },
+        {
+          "seed": 917,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.429999999999843
+        },
+        {
+          "seed": 918,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.459999999999843
+        },
+        {
+          "seed": 919,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 9.499999999999842
+        }
+      ],
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 9.459999999999843,
+      "off_track_rate": 0.0,
+      "timeout_rate": 0.0
+    },
+    "5.0": {
+      "episodes": [
+        {
+          "seed": 900,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.67999999999986
+        },
+        {
+          "seed": 901,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.749999999999858
+        },
+        {
+          "seed": 902,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.65999999999986
+        },
+        {
+          "seed": 903,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.67999999999986
+        },
+        {
+          "seed": 904,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.67999999999986
+        },
+        {
+          "seed": 905,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.719999999999859
+        },
+        {
+          "seed": 906,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.719999999999859
+        },
+        {
+          "seed": 907,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.709999999999859
+        },
+        {
+          "seed": 908,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.67999999999986
+        },
+        {
+          "seed": 909,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.749999999999858
+        },
+        {
+          "seed": 910,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.67999999999986
+        },
+        {
+          "seed": 911,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.66999999999986
+        },
+        {
+          "seed": 912,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.749999999999858
+        },
+        {
+          "seed": 913,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.709999999999859
+        },
+        {
+          "seed": 914,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.719999999999859
+        },
+        {
+          "seed": 915,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.67999999999986
+        },
+        {
+          "seed": 916,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.67999999999986
+        },
+        {
+          "seed": 917,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.67999999999986
+        },
+        {
+          "seed": 918,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.68999999999986
+        },
+        {
+          "seed": 919,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 8.729999999999858
+        }
+      ],
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 8.68499999999986,
+      "off_track_rate": 0.0,
+      "timeout_rate": 0.0
+    }
+  }
+}

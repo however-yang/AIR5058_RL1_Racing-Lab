@@ -1,0 +1,72 @@
+[
+  {
+    "name": "step_32768",
+    "steps": 32768,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.122545004715278
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.39196638997418
+    }
+  },
+  {
+    "name": "step_65536",
+    "steps": 65536,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.125325272088364
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.39554116045842
+    }
+  },
+  {
+    "name": "step_98304",
+    "steps": 98304,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.182959954957852
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.5758586129219
+    }
+  },
+  {
+    "name": "step_131072",
+    "steps": 131072,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.268694462645932
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.4782261269795
+    }
+  },
+  {
+    "name": "final",
+    "steps": 131072,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.23362165657101
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.446986551385418
+    }
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "algo": "ppo",
+  "device": "cpu",
+  "envs": 4,
+  "parallel": false,
+  "steps": 204800,
+  "eval_every": 20480,
+  "seed": 7,
+  "out": "D:\\Desktop\\AIR 5058\\Simulation 1\\ta_private\\runs\\shanghai_throttle_94",
+  "profile": "fast",
+  "holdout": null,
+  "replay": null,
+  "device_used": "cpu",
+  "settings": {
+    "policy_kwargs": {
+      "net_arch": [
+        64,
+        64
+      ]
+    },
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "n_steps": 512,
+    "batch_size": 256,
+    "n_epochs": 6
+  },
+  "validation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "calibration": {
+    "source": "D:\\Desktop\\AIR 5058\\Simulation 1\\ta_private\\runs\\shanghai_ppo_cpu_7\\best.zip",
+    "speed_output_scale": 0.94
+  }
+}

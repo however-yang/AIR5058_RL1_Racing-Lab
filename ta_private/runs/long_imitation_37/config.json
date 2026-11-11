@@ -1,0 +1,39 @@
+{
+  "out": "ta_private\\runs\\long_imitation_37",
+  "teacher_only": false,
+  "lateral_budget": 5.9,
+  "steps": 409600,
+  "envs": 8,
+  "seed": 37,
+  "algo": "ppo",
+  "profile": "imitation_racing",
+  "layout": "shanghai",
+  "network": [
+    96,
+    96
+  ],
+  "gamma": 0.995,
+  "curriculum_fraction": 0.4,
+  "validation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "layout": "shanghai",
+  "algorithm": "SAC",
+  "gamma": 0.9995,
+  "seed": 101,
+  "steps": 196608,
+  "residual_scale": [
+    0.1,
+    0.14
+  ],
+  "multi_line": true,
+  "racecraft": true,
+  "failure_seconds": 55.0,
+  "reward_scale": 5.0,
+  "potential_weight": 0.45,
+  "line": "ta_private\\runs\\measured_pace_planners\\shanghai_line.npz"
+}

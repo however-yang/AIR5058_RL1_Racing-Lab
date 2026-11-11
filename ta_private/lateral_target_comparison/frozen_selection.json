@@ -1,0 +1,197 @@
+{
+  "winner": "baseline",
+  "physics": {
+    "racing/car.xml": "4c3a7ce7cac28f56349ea80c7833c92e9b259cf6c2040cb197f097e634aef5fd",
+    "racing/vehicle.py": "83a26ac649af283f04b36f788baf92f4164e83d82f9b8da3f0124bf8881a74e2",
+    "racing/env.py": "c5bfb97d06774f132f47ce0f8ba14d99718fe6773b554f13bb962daa92a846e6",
+    "racing/track.py": "71bff39f78a65d5c4e9d455d181d85678b5ba9455122458628362014e1c8bd93"
+  },
+  "sectors_m": {
+    "shanghai": [
+      [
+        "spiral_back_straight",
+        74.0,
+        116.0
+      ],
+      [
+        "spiral_back_straight_through_corner",
+        74.0,
+        96.0
+      ],
+      [
+        "spiral_back_straight_after_corner",
+        96.0,
+        116.0
+      ]
+    ],
+    "spa": [
+      [
+        "eau_rouge_kemmel",
+        18.0,
+        41.0
+      ],
+      [
+        "eau_rouge_kemmel_through_corner",
+        18.0,
+        32.0
+      ],
+      [
+        "eau_rouge_kemmel_after_corner",
+        32.0,
+        41.0
+      ],
+      [
+        "bruxelles_to_next_straight_end",
+        48.0,
+        64.0
+      ],
+      [
+        "bruxelles_to_next_straight_end_through_corner",
+        48.0,
+        60.0
+      ],
+      [
+        "bruxelles_to_next_straight_end_after_corner",
+        60.0,
+        64.0
+      ]
+    ]
+  },
+  "dry_seeds": [
+    8300,
+    8301,
+    8302,
+    8303,
+    8304,
+    8305,
+    8306,
+    8307,
+    8308,
+    8309,
+    8310,
+    8311,
+    8312,
+    8313,
+    8314,
+    8315,
+    8316,
+    8317,
+    8318,
+    8319,
+    8320,
+    8321,
+    8322,
+    8323,
+    8324,
+    8325,
+    8326,
+    8327,
+    8328,
+    8329,
+    8330,
+    8331,
+    8332,
+    8333,
+    8334,
+    8335,
+    8336,
+    8337,
+    8338,
+    8339
+  ],
+  "stress_seeds": [
+    8400,
+    8401,
+    8402,
+    8403,
+    8404,
+    8405,
+    8406,
+    8407,
+    8408,
+    8409,
+    8410,
+    8411,
+    8412,
+    8413,
+    8414,
+    8415,
+    8416,
+    8417,
+    8418,
+    8419,
+    8420,
+    8421,
+    8422,
+    8423,
+    8424,
+    8425,
+    8426,
+    8427,
+    8428,
+    8429,
+    8430,
+    8431,
+    8432,
+    8433,
+    8434,
+    8435,
+    8436,
+    8437,
+    8438,
+    8439
+  ],
+  "stress_mu": 0.82,
+  "threshold": 0.95,
+  "admitted": {
+    "baseline": true,
+    "fixed": true,
+    "lateral": true
+  },
+  "sha256": {
+    "baseline": {
+      "line": "bdab3ba8ddb5ddeef87dfbe7b4b426338768ec460ee01e6672d454f6b4d37afc",
+      "checkpoint": "55de3df34c7b7db2d822b6432751eea8aab81058abf2c928d793f763bac5fbf5"
+    },
+    "fixed": {
+      "line": "bdab3ba8ddb5ddeef87dfbe7b4b426338768ec460ee01e6672d454f6b4d37afc",
+      "checkpoint": "53fe53bedc4b44314638df7c35a59e8ff205a543e7e22bfddb4a3f47f1cdaf22"
+    },
+    "lateral": {
+      "line": "bdab3ba8ddb5ddeef87dfbe7b4b426338768ec460ee01e6672d454f6b4d37afc",
+      "checkpoint": "c389b5783c917615284b1f0498179459e84055762b6a1a5ce8b9a7d03e12a989"
+    }
+  },
+  "selected": {
+    "baseline": {
+      "label": "frozen_multi_line",
+      "residual_scale": [
+        0.045000000000000005,
+        0.06300000000000001
+      ],
+      "lane_limit": 0.0,
+      "lane_gain": 1.0,
+      "steps": 0
+    },
+    "fixed": {
+      "label": "fixed/step_65536",
+      "residual_scale": [
+        0.045000000000000005,
+        0.06300000000000001
+      ],
+      "lane_limit": 0.0,
+      "lane_gain": 1.0,
+      "steps": 65536
+    },
+    "lateral": {
+      "label": "lateral/step_98304/gain_0.45",
+      "residual_scale": [
+        0.045000000000000005,
+        0.06300000000000001
+      ],
+      "lane_limit": 0.65,
+      "lane_gain": 0.45,
+      "steps": 98304
+    }
+  }
+}

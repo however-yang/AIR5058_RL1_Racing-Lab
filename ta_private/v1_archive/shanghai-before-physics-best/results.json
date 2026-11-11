@@ -1,0 +1,2317 @@
+{
+  "selection_seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279
+  ],
+  "candidates": [
+    {
+      "run": "ta_private\\runs\\shanghai_ppo_cpu_7",
+      "checkpoint": "best.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 7,
+        "out": "ta_private\\runs\\shanghai_ppo_cpu_7",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 156.25242979987524
+      },
+      "best_validation": {
+        "finish_rate": 0.95,
+        "mean_progress": 0.9739777653065715,
+        "median_lap_s": 30.63000000000199,
+        "off_track_rate": 0.05,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\shanghai_ppo_cpu_7",
+      "checkpoint": "final.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 7,
+        "out": "ta_private\\runs\\shanghai_ppo_cpu_7",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 156.25242979987524
+      },
+      "best_validation": {
+        "finish_rate": 0.2625,
+        "mean_progress": 0.5654434538422806,
+        "median_lap_s": 29.56000000000182,
+        "off_track_rate": 0.7375,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\shanghai_ppo_cuda_13",
+      "checkpoint": "best.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cuda",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 13,
+        "out": "ta_private\\runs\\shanghai_ppo_cuda_13",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cuda",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 384.31767860008404
+      },
+      "best_validation": {
+        "finish_rate": 0.85,
+        "mean_progress": 0.8966986661551648,
+        "median_lap_s": 29.000000000001734,
+        "off_track_rate": 0.15,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\shanghai_ppo_cuda_13",
+      "checkpoint": "final.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cuda",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 13,
+        "out": "ta_private\\runs\\shanghai_ppo_cuda_13",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cuda",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 384.31767860008404
+      },
+      "best_validation": {
+        "finish_rate": 0.8375,
+        "mean_progress": 0.9141570735363688,
+        "median_lap_s": 28.930000000001723,
+        "off_track_rate": 0.1625,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\shanghai_ppo_safe_23",
+      "checkpoint": "best.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 23,
+        "out": "ta_private\\runs\\shanghai_ppo_safe_23",
+        "profile": "safe",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 119.54549579997547
+      },
+      "best_validation": {
+        "finish_rate": 0.875,
+        "mean_progress": 0.9306413229786406,
+        "median_lap_s": 36.510000000001305,
+        "off_track_rate": 0.125,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\shanghai_ppo_safe_23",
+      "checkpoint": "final.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 23,
+        "out": "ta_private\\runs\\shanghai_ppo_safe_23",
+        "profile": "safe",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 119.54549579997547
+      },
+      "best_validation": {
+        "finish_rate": 0.4125,
+        "mean_progress": 0.6460505470328459,
+        "median_lap_s": 29.390000000001795,
+        "off_track_rate": 0.5875,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\shanghai_ppo_corner_31",
+      "checkpoint": "best.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 31,
+        "out": "ta_private\\runs\\shanghai_ppo_corner_31",
+        "profile": "cornering",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 183.35474769980647
+      },
+      "best_validation": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 41.080000000000396,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\shanghai_ppo_corner_31",
+      "checkpoint": "final.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 31,
+        "out": "ta_private\\runs\\shanghai_ppo_corner_31",
+        "profile": "cornering",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ]
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 183.35474769980647
+      },
+      "best_validation": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 41.33000000000035,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\shanghai_throttle_90",
+      "checkpoint": "best.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 7,
+        "out": "D:\\Desktop\\AIR 5058\\Simulation 1\\ta_private\\runs\\shanghai_throttle_90",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "calibration": {
+          "source": "D:\\Desktop\\AIR 5058\\Simulation 1\\ta_private\\runs\\shanghai_ppo_cpu_7\\best.zip",
+          "speed_output_scale": 0.9
+        }
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 156.25242979987524
+      },
+      "best_validation": {
+        "finish_rate": 0.9875,
+        "mean_progress": 0.9928051406392214,
+        "median_lap_s": 33.16000000000197,
+        "off_track_rate": 0.0125,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\shanghai_throttle_94",
+      "checkpoint": "best.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 7,
+        "out": "D:\\Desktop\\AIR 5058\\Simulation 1\\ta_private\\runs\\shanghai_throttle_94",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "calibration": {
+          "source": "D:\\Desktop\\AIR 5058\\Simulation 1\\ta_private\\runs\\shanghai_ppo_cpu_7\\best.zip",
+          "speed_output_scale": 0.94
+        }
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 156.25242979987524
+      },
+      "best_validation": {
+        "finish_rate": 0.95,
+        "mean_progress": 0.963735103800451,
+        "median_lap_s": 32.05000000000219,
+        "off_track_rate": 0.05,
+        "timeout_rate": 0.0
+      }
+    },
+    {
+      "run": "ta_private\\runs\\shanghai_throttle_97",
+      "checkpoint": "best.zip",
+      "config": {
+        "algo": "ppo",
+        "device": "cpu",
+        "envs": 4,
+        "parallel": false,
+        "steps": 204800,
+        "eval_every": 20480,
+        "seed": 7,
+        "out": "D:\\Desktop\\AIR 5058\\Simulation 1\\ta_private\\runs\\shanghai_throttle_97",
+        "profile": "fast",
+        "holdout": null,
+        "replay": null,
+        "device_used": "cpu",
+        "settings": {
+          "policy_kwargs": {
+            "net_arch": [
+              64,
+              64
+            ]
+          },
+          "learning_rate": 0.0003,
+          "gamma": 0.99,
+          "n_steps": 512,
+          "batch_size": 256,
+          "n_epochs": 6
+        },
+        "validation_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "calibration": {
+          "source": "D:\\Desktop\\AIR 5058\\Simulation 1\\ta_private\\runs\\shanghai_ppo_cpu_7\\best.zip",
+          "speed_output_scale": 0.97
+        }
+      },
+      "runtime": {
+        "steps": 204800,
+        "wall_seconds": 156.25242979987524
+      },
+      "best_validation": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.28000000000209,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0
+      }
+    }
+  ],
+  "winner": {
+    "run": "ta_private\\runs\\shanghai_throttle_97",
+    "checkpoint": "best.zip",
+    "config": {
+      "algo": "ppo",
+      "device": "cpu",
+      "envs": 4,
+      "parallel": false,
+      "steps": 204800,
+      "eval_every": 20480,
+      "seed": 7,
+      "out": "D:\\Desktop\\AIR 5058\\Simulation 1\\ta_private\\runs\\shanghai_throttle_97",
+      "profile": "fast",
+      "holdout": null,
+      "replay": null,
+      "device_used": "cpu",
+      "settings": {
+        "policy_kwargs": {
+          "net_arch": [
+            64,
+            64
+          ]
+        },
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "n_steps": 512,
+        "batch_size": 256,
+        "n_epochs": 6
+      },
+      "validation_seeds": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "calibration": {
+        "source": "D:\\Desktop\\AIR 5058\\Simulation 1\\ta_private\\runs\\shanghai_ppo_cpu_7\\best.zip",
+        "speed_output_scale": 0.97
+      }
+    },
+    "runtime": {
+      "steps": 204800,
+      "wall_seconds": 156.25242979987524
+    },
+    "best_validation": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.28000000000209,
+      "off_track_rate": 0.0,
+      "timeout_rate": 0.0
+    }
+  },
+  "holdout": {
+    "episodes": [
+      {
+        "seed": 1500,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.21000000000208
+      },
+      {
+        "seed": 1501,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.27000000000209
+      },
+      {
+        "seed": 1502,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.310000000002095
+      },
+      {
+        "seed": 1503,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.3400000000021
+      },
+      {
+        "seed": 1504,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.300000000002093
+      },
+      {
+        "seed": 1505,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.190000000002076
+      },
+      {
+        "seed": 1506,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.200000000002078
+      },
+      {
+        "seed": 1507,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.3400000000021
+      },
+      {
+        "seed": 1508,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.100000000002062
+      },
+      {
+        "seed": 1509,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.21000000000208
+      },
+      {
+        "seed": 1510,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.130000000002067
+      },
+      {
+        "seed": 1511,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.54000000000213
+      },
+      {
+        "seed": 1512,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.370000000002104
+      },
+      {
+        "seed": 1513,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.29000000000209
+      },
+      {
+        "seed": 1514,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.27000000000209
+      },
+      {
+        "seed": 1515,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.300000000002093
+      },
+      {
+        "seed": 1516,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.260000000002087
+      },
+      {
+        "seed": 1517,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.16000000000207
+      },
+      {
+        "seed": 1518,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.300000000002093
+      },
+      {
+        "seed": 1519,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.14000000000207
+      },
+      {
+        "seed": 1520,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.390000000002107
+      },
+      {
+        "seed": 1521,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.250000000002085
+      },
+      {
+        "seed": 1522,
+        "status": "off_track",
+        "progress": 0.4838352283916565,
+        "gates": 3,
+        "time_s": 15.409999999999716
+      },
+      {
+        "seed": 1523,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.16000000000207
+      },
+      {
+        "seed": 1524,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.260000000002087
+      },
+      {
+        "seed": 1525,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.370000000002104
+      },
+      {
+        "seed": 1526,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.21000000000208
+      },
+      {
+        "seed": 1527,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.310000000002095
+      },
+      {
+        "seed": 1528,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.29000000000209
+      },
+      {
+        "seed": 1529,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.260000000002087
+      },
+      {
+        "seed": 1530,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.200000000002078
+      },
+      {
+        "seed": 1531,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.230000000002082
+      },
+      {
+        "seed": 1532,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.420000000002112
+      },
+      {
+        "seed": 1533,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.14000000000207
+      },
+      {
+        "seed": 1534,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.16000000000207
+      },
+      {
+        "seed": 1535,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.360000000002103
+      },
+      {
+        "seed": 1536,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.390000000002107
+      },
+      {
+        "seed": 1537,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.260000000002087
+      },
+      {
+        "seed": 1538,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.250000000002085
+      },
+      {
+        "seed": 1539,
+        "status": "finished",
+        "progress": 1.0,
+        "gates": 8,
+        "time_s": 31.380000000002106
+      }
+    ],
+    "finish_rate": 0.975,
+    "mean_progress": 0.9870958807097914,
+    "median_lap_s": 31.260000000002087,
+    "off_track_rate": 0.025,
+    "timeout_rate": 0.0
+  },
+  "scripted_holdout": {
+    "3.5": {
+      "episodes": [
+        {
+          "seed": 1500,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.26000000000056
+        },
+        {
+          "seed": 1501,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.26000000000056
+        },
+        {
+          "seed": 1502,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.30000000000055
+        },
+        {
+          "seed": 1503,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.25000000000056
+        },
+        {
+          "seed": 1504,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.31000000000055
+        },
+        {
+          "seed": 1505,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.31000000000055
+        },
+        {
+          "seed": 1506,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.31000000000055
+        },
+        {
+          "seed": 1507,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.24000000000056
+        },
+        {
+          "seed": 1508,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.280000000000555
+        },
+        {
+          "seed": 1509,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.27000000000056
+        },
+        {
+          "seed": 1510,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.26000000000056
+        },
+        {
+          "seed": 1511,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.31000000000055
+        },
+        {
+          "seed": 1512,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.26000000000056
+        },
+        {
+          "seed": 1513,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.27000000000056
+        },
+        {
+          "seed": 1514,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.25000000000056
+        },
+        {
+          "seed": 1515,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.26000000000056
+        },
+        {
+          "seed": 1516,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.32000000000055
+        },
+        {
+          "seed": 1517,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.280000000000555
+        },
+        {
+          "seed": 1518,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.30000000000055
+        },
+        {
+          "seed": 1519,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.280000000000555
+        },
+        {
+          "seed": 1520,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.27000000000056
+        },
+        {
+          "seed": 1521,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.25000000000056
+        },
+        {
+          "seed": 1522,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.29000000000055
+        },
+        {
+          "seed": 1523,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.29000000000055
+        },
+        {
+          "seed": 1524,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.27000000000056
+        },
+        {
+          "seed": 1525,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.26000000000056
+        },
+        {
+          "seed": 1526,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.29000000000055
+        },
+        {
+          "seed": 1527,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.27000000000056
+        },
+        {
+          "seed": 1528,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.32000000000055
+        },
+        {
+          "seed": 1529,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.27000000000056
+        },
+        {
+          "seed": 1530,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.27000000000056
+        },
+        {
+          "seed": 1531,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.31000000000055
+        },
+        {
+          "seed": 1532,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.27000000000056
+        },
+        {
+          "seed": 1533,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.26000000000056
+        },
+        {
+          "seed": 1534,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.26000000000056
+        },
+        {
+          "seed": 1535,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.24000000000056
+        },
+        {
+          "seed": 1536,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.29000000000055
+        },
+        {
+          "seed": 1537,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.280000000000555
+        },
+        {
+          "seed": 1538,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.280000000000555
+        },
+        {
+          "seed": 1539,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 40.31000000000055
+        }
+      ],
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 40.27000000000056,
+      "off_track_rate": 0.0,
+      "timeout_rate": 0.0
+    },
+    "4.5": {
+      "episodes": [
+        {
+          "seed": 1500,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.940000000002193
+        },
+        {
+          "seed": 1501,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.86000000000218
+        },
+        {
+          "seed": 1502,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.93000000000219
+        },
+        {
+          "seed": 1503,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.880000000002184
+        },
+        {
+          "seed": 1504,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.950000000002195
+        },
+        {
+          "seed": 1505,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.950000000002195
+        },
+        {
+          "seed": 1506,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.890000000002185
+        },
+        {
+          "seed": 1507,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.880000000002184
+        },
+        {
+          "seed": 1508,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.760000000002165
+        },
+        {
+          "seed": 1509,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.950000000002195
+        },
+        {
+          "seed": 1510,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.92000000000219
+        },
+        {
+          "seed": 1511,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.890000000002185
+        },
+        {
+          "seed": 1512,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.85000000000218
+        },
+        {
+          "seed": 1513,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.970000000002198
+        },
+        {
+          "seed": 1514,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.92000000000219
+        },
+        {
+          "seed": 1515,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.890000000002185
+        },
+        {
+          "seed": 1516,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.890000000002185
+        },
+        {
+          "seed": 1517,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.940000000002193
+        },
+        {
+          "seed": 1518,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.950000000002195
+        },
+        {
+          "seed": 1519,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.960000000002196
+        },
+        {
+          "seed": 1520,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.870000000002182
+        },
+        {
+          "seed": 1521,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.970000000002198
+        },
+        {
+          "seed": 1522,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.950000000002195
+        },
+        {
+          "seed": 1523,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.900000000002187
+        },
+        {
+          "seed": 1524,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.9800000000022
+        },
+        {
+          "seed": 1525,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.91000000000219
+        },
+        {
+          "seed": 1526,
+          "status": "off_track",
+          "progress": 0.2047256882811218,
+          "gates": 1,
+          "time_s": 6.949999999999896
+        },
+        {
+          "seed": 1527,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 32.0300000000022
+        },
+        {
+          "seed": 1528,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 32.0000000000022
+        },
+        {
+          "seed": 1529,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.85000000000218
+        },
+        {
+          "seed": 1530,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 32.040000000002195
+        },
+        {
+          "seed": 1531,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.870000000002182
+        },
+        {
+          "seed": 1532,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.870000000002182
+        },
+        {
+          "seed": 1533,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.85000000000218
+        },
+        {
+          "seed": 1534,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.970000000002198
+        },
+        {
+          "seed": 1535,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.9900000000022
+        },
+        {
+          "seed": 1536,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.92000000000219
+        },
+        {
+          "seed": 1537,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.940000000002193
+        },
+        {
+          "seed": 1538,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.880000000002184
+        },
+        {
+          "seed": 1539,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.93000000000219
+        }
+      ],
+      "finish_rate": 0.975,
+      "mean_progress": 0.9801181422070281,
+      "median_lap_s": 31.92000000000219,
+      "off_track_rate": 0.025,
+      "timeout_rate": 0.0
+    },
+    "5.0": {
+      "episodes": [
+        {
+          "seed": 1500,
+          "status": "off_track",
+          "progress": 0.20135331853596053,
+          "gates": 1,
+          "time_s": 6.339999999999909
+        },
+        {
+          "seed": 1501,
+          "status": "off_track",
+          "progress": 0.4293954920406809,
+          "gates": 3,
+          "time_s": 13.029999999999767
+        },
+        {
+          "seed": 1502,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.440000000001803
+        },
+        {
+          "seed": 1503,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.56000000000182
+        },
+        {
+          "seed": 1504,
+          "status": "off_track",
+          "progress": 0.323087958533758,
+          "gates": 2,
+          "time_s": 9.959999999999832
+        },
+        {
+          "seed": 1505,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.390000000001795
+        },
+        {
+          "seed": 1506,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.730000000001848
+        },
+        {
+          "seed": 1507,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.450000000001804
+        },
+        {
+          "seed": 1508,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.440000000001803
+        },
+        {
+          "seed": 1509,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.460000000001806
+        },
+        {
+          "seed": 1510,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.4200000000018
+        },
+        {
+          "seed": 1511,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.49000000000181
+        },
+        {
+          "seed": 1512,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.540000000001818
+        },
+        {
+          "seed": 1513,
+          "status": "off_track",
+          "progress": 0.21646098721022103,
+          "gates": 1,
+          "time_s": 6.859999999999898
+        },
+        {
+          "seed": 1514,
+          "status": "off_track",
+          "progress": 0.4751893682123204,
+          "gates": 3,
+          "time_s": 14.589999999999733
+        },
+        {
+          "seed": 1515,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.460000000001806
+        },
+        {
+          "seed": 1516,
+          "status": "off_track",
+          "progress": 0.4764068821201393,
+          "gates": 3,
+          "time_s": 14.389999999999738
+        },
+        {
+          "seed": 1517,
+          "status": "off_track",
+          "progress": 0.472182256755648,
+          "gates": 3,
+          "time_s": 14.329999999999739
+        },
+        {
+          "seed": 1518,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.49000000000181
+        },
+        {
+          "seed": 1519,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.67000000000184
+        },
+        {
+          "seed": 1520,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.380000000001793
+        },
+        {
+          "seed": 1521,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.450000000001804
+        },
+        {
+          "seed": 1522,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.590000000001826
+        },
+        {
+          "seed": 1523,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.510000000001813
+        },
+        {
+          "seed": 1524,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.520000000001815
+        },
+        {
+          "seed": 1525,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.450000000001804
+        },
+        {
+          "seed": 1526,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.460000000001806
+        },
+        {
+          "seed": 1527,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.4300000000018
+        },
+        {
+          "seed": 1528,
+          "status": "off_track",
+          "progress": 0.3370061743434175,
+          "gates": 2,
+          "time_s": 10.429999999999822
+        },
+        {
+          "seed": 1529,
+          "status": "off_track",
+          "progress": 0.4767012188737093,
+          "gates": 3,
+          "time_s": 14.629999999999733
+        },
+        {
+          "seed": 1530,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.470000000001807
+        },
+        {
+          "seed": 1531,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.55000000000182
+        },
+        {
+          "seed": 1532,
+          "status": "off_track",
+          "progress": 0.4829022295797307,
+          "gates": 3,
+          "time_s": 14.72999999999973
+        },
+        {
+          "seed": 1533,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.530000000001817
+        },
+        {
+          "seed": 1534,
+          "status": "off_track",
+          "progress": 0.2084548972516824,
+          "gates": 1,
+          "time_s": 6.649999999999903
+        },
+        {
+          "seed": 1535,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.540000000001818
+        },
+        {
+          "seed": 1536,
+          "status": "off_track",
+          "progress": 0.9046494545349262,
+          "gates": 7,
+          "time_s": 26.94000000000141
+        },
+        {
+          "seed": 1537,
+          "status": "off_track",
+          "progress": 0.4708534589906116,
+          "gates": 3,
+          "time_s": 14.30999999999974
+        },
+        {
+          "seed": 1538,
+          "status": "off_track",
+          "progress": 0.4843102314047137,
+          "gates": 3,
+          "time_s": 14.75999999999973
+        },
+        {
+          "seed": 1539,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 29.450000000001804
+        }
+      ],
+      "finish_rate": 0.65,
+      "mean_progress": 0.7989738482096881,
+      "median_lap_s": 29.465000000001808,
+      "off_track_rate": 0.35,
+      "timeout_rate": 0.0
+    },
+    "adaptive": {
+      "episodes": [
+        {
+          "seed": 1500,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.38000000000193
+        },
+        {
+          "seed": 1501,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.37000000000193
+        },
+        {
+          "seed": 1502,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.340000000001936
+        },
+        {
+          "seed": 1503,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.300000000001944
+        },
+        {
+          "seed": 1504,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.37000000000193
+        },
+        {
+          "seed": 1505,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.42000000000192
+        },
+        {
+          "seed": 1506,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.37000000000193
+        },
+        {
+          "seed": 1507,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.41000000000192
+        },
+        {
+          "seed": 1508,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.36000000000193
+        },
+        {
+          "seed": 1509,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.41000000000192
+        },
+        {
+          "seed": 1510,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.340000000001936
+        },
+        {
+          "seed": 1511,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.36000000000193
+        },
+        {
+          "seed": 1512,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.36000000000193
+        },
+        {
+          "seed": 1513,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.390000000001926
+        },
+        {
+          "seed": 1514,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.37000000000193
+        },
+        {
+          "seed": 1515,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.37000000000193
+        },
+        {
+          "seed": 1516,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.38000000000193
+        },
+        {
+          "seed": 1517,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.340000000001936
+        },
+        {
+          "seed": 1518,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.33000000000194
+        },
+        {
+          "seed": 1519,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.42000000000192
+        },
+        {
+          "seed": 1520,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.37000000000193
+        },
+        {
+          "seed": 1521,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.37000000000193
+        },
+        {
+          "seed": 1522,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.33000000000194
+        },
+        {
+          "seed": 1523,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.36000000000193
+        },
+        {
+          "seed": 1524,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.41000000000192
+        },
+        {
+          "seed": 1525,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.37000000000193
+        },
+        {
+          "seed": 1526,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.41000000000192
+        },
+        {
+          "seed": 1527,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.390000000001926
+        },
+        {
+          "seed": 1528,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.38000000000193
+        },
+        {
+          "seed": 1529,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.390000000001926
+        },
+        {
+          "seed": 1530,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.390000000001926
+        },
+        {
+          "seed": 1531,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.36000000000193
+        },
+        {
+          "seed": 1532,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.400000000001924
+        },
+        {
+          "seed": 1533,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.33000000000194
+        },
+        {
+          "seed": 1534,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.37000000000193
+        },
+        {
+          "seed": 1535,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.38000000000193
+        },
+        {
+          "seed": 1536,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.37000000000193
+        },
+        {
+          "seed": 1537,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.36000000000193
+        },
+        {
+          "seed": 1538,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.390000000001926
+        },
+        {
+          "seed": 1539,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 33.340000000001936
+        }
+      ],
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 33.37000000000193,
+      "off_track_rate": 0.0,
+      "timeout_rate": 0.0
+    }
+  }
+}

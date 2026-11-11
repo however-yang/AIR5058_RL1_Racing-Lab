@@ -1,0 +1,72 @@
+[
+  {
+    "name": "step_32768",
+    "steps": 32768,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 32.12891879507819
+    },
+    "stress": {
+      "finish_rate": 0.8333333333333334,
+      "mean_progress": 0.9363196983954478,
+      "median_lap_s": 33.04933271880175
+    }
+  },
+  {
+    "name": "step_65536",
+    "steps": 65536,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 33.67430085969232
+    },
+    "stress": {
+      "finish_rate": 0.3333333333333333,
+      "mean_progress": 0.93028593366934,
+      "median_lap_s": 34.390148031427444
+    }
+  },
+  {
+    "name": "step_98304",
+    "steps": 98304,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.679462866791695
+    },
+    "stress": {
+      "finish_rate": 0.8333333333333334,
+      "mean_progress": 0.9355838811089016,
+      "median_lap_s": 32.084257330890274
+    }
+  },
+  {
+    "name": "step_131072",
+    "steps": 131072,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 32.68344554580573
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 32.996430845096356
+    }
+  },
+  {
+    "name": "final",
+    "steps": 131072,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 32.608261055649706
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 32.83514579915416
+    }
+  }
+]

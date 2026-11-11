@@ -1,0 +1,100 @@
+[
+  {
+    "name": "step_32768",
+    "steps": 32768,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.557111929287668
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.710625864651742
+    }
+  },
+  {
+    "name": "step_65536",
+    "steps": 65536,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.628132208164818
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.71576729892577
+    }
+  },
+  {
+    "name": "step_98304",
+    "steps": 98304,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.57965170265058
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.62871012594419
+    }
+  },
+  {
+    "name": "step_131072",
+    "steps": 131072,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.86871917016365
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.972428769812485
+    }
+  },
+  {
+    "name": "step_163840",
+    "steps": 163840,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.707704691756152
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.868487397192524
+    }
+  },
+  {
+    "name": "step_196608",
+    "steps": 196608,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.497746882134052
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.59530433309624
+    }
+  },
+  {
+    "name": "final",
+    "steps": 196608,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.52584674586729
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.625061800879784
+    }
+  }
+]

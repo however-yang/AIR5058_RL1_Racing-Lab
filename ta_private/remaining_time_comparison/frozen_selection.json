@@ -1,0 +1,132 @@
+{
+  "winner": "time_sac",
+  "physics": {
+    "racing/car.xml": "4c3a7ce7cac28f56349ea80c7833c92e9b259cf6c2040cb197f097e634aef5fd",
+    "racing/vehicle.py": "83a26ac649af283f04b36f788baf92f4164e83d82f9b8da3f0124bf8881a74e2",
+    "racing/env.py": "c5bfb97d06774f132f47ce0f8ba14d99718fe6773b554f13bb962daa92a846e6",
+    "racing/track.py": "71bff39f78a65d5c4e9d455d181d85678b5ba9455122458628362014e1c8bd93"
+  },
+  "sectors_m": {
+    "shanghai": [
+      [
+        "spiral_back_straight",
+        74.0,
+        116.0
+      ]
+    ],
+    "spa": [
+      [
+        "eau_rouge_kemmel",
+        18.0,
+        41.0
+      ],
+      [
+        "bruxelles_to_next_straight_end",
+        48.0,
+        64.0
+      ]
+    ]
+  },
+  "dry_seeds": [
+    6300,
+    6301,
+    6302,
+    6303,
+    6304,
+    6305,
+    6306,
+    6307,
+    6308,
+    6309,
+    6310,
+    6311,
+    6312,
+    6313,
+    6314,
+    6315,
+    6316,
+    6317,
+    6318,
+    6319,
+    6320,
+    6321,
+    6322,
+    6323,
+    6324,
+    6325,
+    6326,
+    6327,
+    6328,
+    6329,
+    6330,
+    6331,
+    6332,
+    6333,
+    6334,
+    6335,
+    6336,
+    6337,
+    6338,
+    6339
+  ],
+  "stress_seeds": [
+    6400,
+    6401,
+    6402,
+    6403,
+    6404,
+    6405,
+    6406,
+    6407,
+    6408,
+    6409,
+    6410,
+    6411,
+    6412,
+    6413,
+    6414,
+    6415,
+    6416,
+    6417,
+    6418,
+    6419
+  ],
+  "stress_mu": 0.82,
+  "threshold": 0.95,
+  "admitted": {
+    "baseline": true,
+    "measured": true,
+    "time_sac": true
+  },
+  "selected": {
+    "baseline": {
+      "label": "baseline",
+      "residual_scale": null
+    },
+    "measured": {
+      "label": "measured",
+      "residual_scale": null
+    },
+    "time_sac": {
+      "label": "time_sac/step_65536/45pct",
+      "residual_scale": [
+        0.045000000000000005,
+        0.06300000000000001
+      ]
+    }
+  },
+  "sha256": {
+    "baseline": {
+      "line": "f5d7900e668575e349bbb00fd045281e3c0151464ca1dee96d177a35ce3ef322",
+      "checkpoint": null
+    },
+    "measured": {
+      "line": "bdab3ba8ddb5ddeef87dfbe7b4b426338768ec460ee01e6672d454f6b4d37afc",
+      "checkpoint": null
+    },
+    "time_sac": {
+      "line": "bdab3ba8ddb5ddeef87dfbe7b4b426338768ec460ee01e6672d454f6b4d37afc",
+      "checkpoint": "5370100646c21c07c4e9d771fbca5f971fdda87af6c7360c0ae5809fdd4b9e75"
+    }
+  }
+}

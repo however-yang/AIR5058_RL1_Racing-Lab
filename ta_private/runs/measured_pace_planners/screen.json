@@ -1,0 +1,2353 @@
+{
+  "selected": {
+    "label": "lat7.70_preview0.52",
+    "line": "ta_private\\runs\\measured_pace_planners\\lat7.70_preview0.52.npz",
+    "lateral": 7.7,
+    "preview": 0.52,
+    "estimate_s": 29.39680290222168,
+    "dry": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.07791088335979,
+      "episodes": [
+        {
+          "seed": 6000,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.082611777903338,
+          "peak_speed_mps": 4.589489024795021,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6001,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.092235911323826,
+          "peak_speed_mps": 4.589488956865629,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6002,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.057624735174358,
+          "peak_speed_mps": 4.589487303007442,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6003,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.10792762302251,
+          "peak_speed_mps": 4.589488875229882,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6004,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.07320998881625,
+          "peak_speed_mps": 4.589487256863357,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6005,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.084546114178217,
+          "peak_speed_mps": 4.589486912678017,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6006,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.09983845329178,
+          "peak_speed_mps": 4.589486582092578,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6007,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.026275764467172,
+          "peak_speed_mps": 4.589488291685859,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6008,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 30.997272115230757,
+          "peak_speed_mps": 4.589475270071476,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6009,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.054272720698112,
+          "peak_speed_mps": 4.5894775604006695,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6010,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.023127039822107,
+          "peak_speed_mps": 4.589465168653528,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6011,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.116033085923075,
+          "peak_speed_mps": 4.5894910159639615,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        }
+      ]
+    },
+    "stress": {
+      "finish_rate": 1.0,
+      "mean_progress": 1.0,
+      "median_lap_s": 31.60744148090452,
+      "episodes": [
+        {
+          "seed": 6100,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.603896748418517,
+          "peak_speed_mps": 4.589491515833924,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6101,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.610986213390518,
+          "peak_speed_mps": 4.5894887675318445,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6102,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.489576552020697,
+          "peak_speed_mps": 4.589491621415619,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6103,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.915074882766856,
+          "peak_speed_mps": 4.589490592727302,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6104,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.717042043748098,
+          "peak_speed_mps": 4.589486172254704,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6105,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.68220604551604,
+          "peak_speed_mps": 4.589473470324741,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6106,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.68942273646294,
+          "peak_speed_mps": 4.58948576305249,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6107,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.532986163043958,
+          "peak_speed_mps": 4.589491870245139,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6108,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.411660498304368,
+          "peak_speed_mps": 4.589487224308428,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6109,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.621409684319655,
+          "peak_speed_mps": 4.589491437145841,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6110,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.47910535018106,
+          "peak_speed_mps": 4.589488400065392,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        },
+        {
+          "seed": 6111,
+          "status": "finished",
+          "progress": 1.0,
+          "gates": 8,
+          "time_s": 31.435858511667284,
+          "peak_speed_mps": 4.589493283815343,
+          "peak_grip": 1.0000000000000004,
+          "peak_slip_mps": null
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "label": "lat6.80_preview0.52",
+      "line": "ta_private\\runs\\measured_pace_planners\\lat6.80_preview0.52.npz",
+      "lateral": 6.8,
+      "preview": 0.52,
+      "estimate_s": 30.102886199951172,
+      "dry": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.43521003874938,
+        "episodes": [
+          {
+            "seed": 6000,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.432367565830095,
+            "peak_speed_mps": 4.589511916504006,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6001,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.458801045841074,
+            "peak_speed_mps": 4.589505495036031,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6002,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.45826703268394,
+            "peak_speed_mps": 4.589504157407568,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6003,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.42433303820837,
+            "peak_speed_mps": 4.589507390022209,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6004,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.40896890099037,
+            "peak_speed_mps": 4.589509107283378,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6005,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.451753754658714,
+            "peak_speed_mps": 4.589510531457534,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6006,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.456155528493802,
+            "peak_speed_mps": 4.589507538746075,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6007,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.42851732324985,
+            "peak_speed_mps": 4.589509538711469,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6008,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.426145494871598,
+            "peak_speed_mps": 4.589514763068598,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6009,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.424512550758596,
+            "peak_speed_mps": 4.589512786490938,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6010,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.438052511668662,
+            "peak_speed_mps": 4.5895049514672035,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6011,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.48725020996208,
+            "peak_speed_mps": 4.5895124972147165,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      },
+      "stress": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.562770848479108,
+        "episodes": [
+          {
+            "seed": 6100,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.521065370586943,
+            "peak_speed_mps": 4.589510863036665,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6101,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.61629690853363,
+            "peak_speed_mps": 4.589509879263148,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6102,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.578577274700354,
+            "peak_speed_mps": 4.589521214736051,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6103,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.571088395288854,
+            "peak_speed_mps": 4.589549808643634,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6104,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.554722790983433,
+            "peak_speed_mps": 4.589511944819009,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6105,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.550056884427317,
+            "peak_speed_mps": 4.589506350307399,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6106,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.621871898096757,
+            "peak_speed_mps": 4.589533554438615,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6107,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.541670350958206,
+            "peak_speed_mps": 4.589513066352288,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6108,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.570818905974782,
+            "peak_speed_mps": 4.589510010104486,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6109,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.522751251982484,
+            "peak_speed_mps": 4.589513383829699,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6110,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.54891852239861,
+            "peak_speed_mps": 4.589511367458609,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6111,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.571210521528364,
+            "peak_speed_mps": 4.589522353656463,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      }
+    },
+    {
+      "label": "lat6.80_preview0.85",
+      "line": "ta_private\\runs\\measured_pace_planners\\lat6.80_preview0.85.npz",
+      "lateral": 6.8,
+      "preview": 0.85,
+      "estimate_s": 30.102886199951172,
+      "dry": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.54215749059466,
+        "episodes": [
+          {
+            "seed": 6000,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.550706008706978,
+            "peak_speed_mps": 4.589508878367473,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6001,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.5688185869453,
+            "peak_speed_mps": 4.589512790459202,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6002,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.562237434003187,
+            "peak_speed_mps": 4.589508978167821,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6003,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.513703040130622,
+            "peak_speed_mps": 4.589500808253394,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6004,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.510505058300552,
+            "peak_speed_mps": 4.589508840023225,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6005,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.521212876220975,
+            "peak_speed_mps": 4.589507726956333,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6006,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.540659480954663,
+            "peak_speed_mps": 4.5895058819171615,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6007,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.554742444870936,
+            "peak_speed_mps": 4.589512196830779,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6008,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.501484567372806,
+            "peak_speed_mps": 4.589512256182004,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6009,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.49247724231916,
+            "peak_speed_mps": 4.589498404883606,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6010,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.547658152257558,
+            "peak_speed_mps": 4.589509843026272,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6011,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.54365550023466,
+            "peak_speed_mps": 4.589512479391745,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      },
+      "stress": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.677319504934204,
+        "episodes": [
+          {
+            "seed": 6100,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.641595811735527,
+            "peak_speed_mps": 4.589559507295166,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6101,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.683825096829633,
+            "peak_speed_mps": 4.589535680117162,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6102,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.70118052741233,
+            "peak_speed_mps": 4.589511629758442,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6103,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.634460433354523,
+            "peak_speed_mps": 4.5895142845739185,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6104,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.667752996641717,
+            "peak_speed_mps": 4.58951230609556,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6105,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.692173731708515,
+            "peak_speed_mps": 4.589512151237411,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6106,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.69944954769431,
+            "peak_speed_mps": 4.5895122588355095,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6107,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.640267067719606,
+            "peak_speed_mps": 4.589553176662702,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6108,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.651001952153365,
+            "peak_speed_mps": 4.589536652189774,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6109,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.701304845727623,
+            "peak_speed_mps": 4.589512686585068,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6110,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.682283900276573,
+            "peak_speed_mps": 4.589510855272092,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6111,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.672355109591837,
+            "peak_speed_mps": 4.58950648831057,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      }
+    },
+    {
+      "label": "lat7.10_preview0.52",
+      "line": "ta_private\\runs\\measured_pace_planners\\lat7.10_preview0.52.npz",
+      "lateral": 7.1,
+      "preview": 0.52,
+      "estimate_s": 29.84797477722168,
+      "dry": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.27303288756184,
+        "episodes": [
+          {
+            "seed": 6000,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.291119110895185,
+            "peak_speed_mps": 4.5895041943087085,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6001,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.291027741732666,
+            "peak_speed_mps": 4.58949156352104,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6002,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.275804645332876,
+            "peak_speed_mps": 4.589489546352464,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6003,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.23206635815383,
+            "peak_speed_mps": 4.58950164308944,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6004,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.224008667720213,
+            "peak_speed_mps": 4.589502911647608,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6005,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.248184254140458,
+            "peak_speed_mps": 4.589512100390527,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6006,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.27455983775876,
+            "peak_speed_mps": 4.589491741964497,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6007,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.271505937364918,
+            "peak_speed_mps": 4.58949615073744,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6008,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.226131650946773,
+            "peak_speed_mps": 4.589511573437304,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6009,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.25471245760584,
+            "peak_speed_mps": 4.5895036733092756,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6010,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.279788043303977,
+            "peak_speed_mps": 4.589510110356195,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6011,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.29699996908275,
+            "peak_speed_mps": 4.5894938302456785,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      },
+      "stress": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.48772198001189,
+        "episodes": [
+          {
+            "seed": 6100,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.453797563922976,
+            "peak_speed_mps": 4.58950660203235,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6101,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.54036810456429,
+            "peak_speed_mps": 4.589542219535634,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6102,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.491303410814286,
+            "peak_speed_mps": 4.589558194762154,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6103,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.493292783636907,
+            "peak_speed_mps": 4.589506786886094,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6104,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.50149170709275,
+            "peak_speed_mps": 4.589507875094105,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6105,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.471831155306855,
+            "peak_speed_mps": 4.589524333700918,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6106,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.535336134074058,
+            "peak_speed_mps": 4.589514663578477,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6107,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.484140549209492,
+            "peak_speed_mps": 4.589532624181924,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6108,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.453879883061614,
+            "peak_speed_mps": 4.589506384561526,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6109,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.5013609215306,
+            "peak_speed_mps": 4.589497789741944,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6110,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.46820039520199,
+            "peak_speed_mps": 4.589500815792116,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6111,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.44214213971612,
+            "peak_speed_mps": 4.589541538926972,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      }
+    },
+    {
+      "label": "lat7.10_preview0.85",
+      "line": "ta_private\\runs\\measured_pace_planners\\lat7.10_preview0.85.npz",
+      "lateral": 7.1,
+      "preview": 0.85,
+      "estimate_s": 29.84797477722168,
+      "dry": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.347916827383685,
+        "episodes": [
+          {
+            "seed": 6000,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.358233919214108,
+            "peak_speed_mps": 4.589498650952216,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6001,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.41870692603802,
+            "peak_speed_mps": 4.5895102105714365,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6002,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.339598682473234,
+            "peak_speed_mps": 4.589500679531795,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6003,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.323953244490557,
+            "peak_speed_mps": 4.589511647940909,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6004,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.31052449288427,
+            "peak_speed_mps": 4.58952655599181,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6005,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.330059383025713,
+            "peak_speed_mps": 4.589490192201427,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6006,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.38132266678409,
+            "peak_speed_mps": 4.589494418941392,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6007,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.34993654929209,
+            "peak_speed_mps": 4.58950634974852,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6008,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.31916729565909,
+            "peak_speed_mps": 4.589527528518923,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6009,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.34589710547528,
+            "peak_speed_mps": 4.589513201452305,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6010,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.362662951065527,
+            "peak_speed_mps": 4.589510069824516,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6011,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.363113972364125,
+            "peak_speed_mps": 4.589514929759832,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      },
+      "stress": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.527284979538074,
+        "episodes": [
+          {
+            "seed": 6100,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.50335591687043,
+            "peak_speed_mps": 4.589499045379079,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6101,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.606339818508605,
+            "peak_speed_mps": 4.589511171266055,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6102,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.523524018166764,
+            "peak_speed_mps": 4.589510229731516,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6103,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.493746456336247,
+            "peak_speed_mps": 4.589507738699027,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6104,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.641786029545116,
+            "peak_speed_mps": 4.589522230045624,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6105,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.47396100404125,
+            "peak_speed_mps": 4.589525680382192,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6106,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.552431594359668,
+            "peak_speed_mps": 4.5895022113884965,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6107,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.512692708646007,
+            "peak_speed_mps": 4.589501732100795,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6108,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.550654198462666,
+            "peak_speed_mps": 4.589505429161097,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6109,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.557955492188192,
+            "peak_speed_mps": 4.5895033890092956,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6110,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.51546249215267,
+            "peak_speed_mps": 4.589512032779898,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6111,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.531045940909387,
+            "peak_speed_mps": 4.589566485303157,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      }
+    },
+    {
+      "label": "lat7.40_preview0.52",
+      "line": "ta_private\\runs\\measured_pace_planners\\lat7.40_preview0.52.npz",
+      "lateral": 7.4,
+      "preview": 0.52,
+      "estimate_s": 29.616741180419922,
+      "dry": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.151660974224225,
+        "episodes": [
+          {
+            "seed": 6000,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.168107605899973,
+            "peak_speed_mps": 4.589511762324275,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6001,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.18554580207811,
+            "peak_speed_mps": 4.589509243874282,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6002,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.151539759929012,
+            "peak_speed_mps": 4.5895017057929985,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6003,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.100795496213813,
+            "peak_speed_mps": 4.58951107266924,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6004,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.128705405740927,
+            "peak_speed_mps": 4.589513147907657,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6005,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.125186426377276,
+            "peak_speed_mps": 4.589513332994436,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6006,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.171577576997507,
+            "peak_speed_mps": 4.589508302511592,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6007,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.189594890510023,
+            "peak_speed_mps": 4.589515317511826,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6008,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.12885578630151,
+            "peak_speed_mps": 4.589512951178293,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6009,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.151782188519437,
+            "peak_speed_mps": 4.589515848294795,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6010,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.14758367081559,
+            "peak_speed_mps": 4.589491612785535,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6011,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.16181950969499,
+            "peak_speed_mps": 4.589515680966633,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      },
+      "stress": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.509689341833575,
+        "episodes": [
+          {
+            "seed": 6100,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.545955152820362,
+            "peak_speed_mps": 4.589512145740781,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6101,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.50998415340739,
+            "peak_speed_mps": 4.589558484674724,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6102,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.522955630066555,
+            "peak_speed_mps": 4.58952919983148,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6103,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.518554903234147,
+            "peak_speed_mps": 4.589513819759765,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6104,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.44814188804954,
+            "peak_speed_mps": 4.589507284849292,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6105,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.44320246334191,
+            "peak_speed_mps": 4.589540491742212,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6106,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.54998750069985,
+            "peak_speed_mps": 4.5895128315619615,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6107,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.424854744614464,
+            "peak_speed_mps": 4.589536403623133,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6108,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.556732547945412,
+            "peak_speed_mps": 4.589546705704368,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6109,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.445792275112748,
+            "peak_speed_mps": 4.5895136014422375,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6110,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.50939453025976,
+            "peak_speed_mps": 4.589562916149505,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6111,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.436971381183866,
+            "peak_speed_mps": 4.589510377472007,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      }
+    },
+    {
+      "label": "lat7.40_preview0.85",
+      "line": "ta_private\\runs\\measured_pace_planners\\lat7.40_preview0.85.npz",
+      "lateral": 7.4,
+      "preview": 0.85,
+      "estimate_s": 29.616741180419922,
+      "dry": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.20921047569513,
+        "episodes": [
+          {
+            "seed": 6000,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.22373606257342,
+            "peak_speed_mps": 4.589512211531033,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6001,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.25856319529935,
+            "peak_speed_mps": 4.589525885290123,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6002,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.210318335919432,
+            "peak_speed_mps": 4.589504416868655,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6003,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.17321460441583,
+            "peak_speed_mps": 4.589509288089523,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6004,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.18634404810576,
+            "peak_speed_mps": 4.589511188259888,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6005,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.205890474117822,
+            "peak_speed_mps": 4.589511465524208,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6006,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.26407953820284,
+            "peak_speed_mps": 4.589512594490186,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6007,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.226310097143966,
+            "peak_speed_mps": 4.5895137170014655,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6008,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.20232264036468,
+            "peak_speed_mps": 4.58951409401378,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6009,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.204583203493826,
+            "peak_speed_mps": 4.589519865227955,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6010,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.208102615470825,
+            "peak_speed_mps": 4.5895221942364,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6011,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.217630683931084,
+            "peak_speed_mps": 4.589515551772847,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      },
+      "stress": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.459510119812393,
+        "episodes": [
+          {
+            "seed": 6100,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.393806132604617,
+            "peak_speed_mps": 4.589528978580175,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6101,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.5316817744691,
+            "peak_speed_mps": 4.589523671872746,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6102,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.52382780405804,
+            "peak_speed_mps": 4.589513363273446,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6103,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.52593130911113,
+            "peak_speed_mps": 4.5895135283944235,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6104,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.45069177394439,
+            "peak_speed_mps": 4.589514850127164,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6105,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.374329126975645,
+            "peak_speed_mps": 4.589582669205155,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6106,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.500166972815634,
+            "peak_speed_mps": 4.589517079463246,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6107,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.431101286574503,
+            "peak_speed_mps": 4.589581861992104,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6108,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.388198222938158,
+            "peak_speed_mps": 4.589575419560154,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6109,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.505933037964002,
+            "peak_speed_mps": 4.589514710644764,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6110,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.40421474304826,
+            "peak_speed_mps": 4.589507776486437,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6111,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.468328465680397,
+            "peak_speed_mps": 4.589512507954402,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      }
+    },
+    {
+      "label": "lat7.70_preview0.52",
+      "line": "ta_private\\runs\\measured_pace_planners\\lat7.70_preview0.52.npz",
+      "lateral": 7.7,
+      "preview": 0.52,
+      "estimate_s": 29.39680290222168,
+      "dry": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.07791088335979,
+        "episodes": [
+          {
+            "seed": 6000,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.082611777903338,
+            "peak_speed_mps": 4.589489024795021,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6001,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.092235911323826,
+            "peak_speed_mps": 4.589488956865629,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6002,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.057624735174358,
+            "peak_speed_mps": 4.589487303007442,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6003,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.10792762302251,
+            "peak_speed_mps": 4.589488875229882,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6004,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.07320998881625,
+            "peak_speed_mps": 4.589487256863357,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6005,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.084546114178217,
+            "peak_speed_mps": 4.589486912678017,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6006,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.09983845329178,
+            "peak_speed_mps": 4.589486582092578,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6007,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.026275764467172,
+            "peak_speed_mps": 4.589488291685859,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6008,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 30.997272115230757,
+            "peak_speed_mps": 4.589475270071476,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6009,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.054272720698112,
+            "peak_speed_mps": 4.5894775604006695,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6010,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.023127039822107,
+            "peak_speed_mps": 4.589465168653528,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6011,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.116033085923075,
+            "peak_speed_mps": 4.5894910159639615,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      },
+      "stress": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.60744148090452,
+        "episodes": [
+          {
+            "seed": 6100,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.603896748418517,
+            "peak_speed_mps": 4.589491515833924,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6101,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.610986213390518,
+            "peak_speed_mps": 4.5894887675318445,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6102,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.489576552020697,
+            "peak_speed_mps": 4.589491621415619,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6103,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.915074882766856,
+            "peak_speed_mps": 4.589490592727302,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6104,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.717042043748098,
+            "peak_speed_mps": 4.589486172254704,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6105,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.68220604551604,
+            "peak_speed_mps": 4.589473470324741,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6106,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.68942273646294,
+            "peak_speed_mps": 4.58948576305249,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6107,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.532986163043958,
+            "peak_speed_mps": 4.589491870245139,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6108,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.411660498304368,
+            "peak_speed_mps": 4.589487224308428,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6109,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.621409684319655,
+            "peak_speed_mps": 4.589491437145841,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6110,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.47910535018106,
+            "peak_speed_mps": 4.589488400065392,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6111,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.435858511667284,
+            "peak_speed_mps": 4.589493283815343,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      }
+    },
+    {
+      "label": "lat7.70_preview0.85",
+      "line": "ta_private\\runs\\measured_pace_planners\\lat7.70_preview0.85.npz",
+      "lateral": 7.7,
+      "preview": 0.85,
+      "estimate_s": 29.39680290222168,
+      "dry": {
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 31.08701590448857,
+        "episodes": [
+          {
+            "seed": 6000,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.15546532612172,
+            "peak_speed_mps": 4.589492751603281,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6001,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.135882840656144,
+            "peak_speed_mps": 4.5894767542707315,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6002,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.085334247393554,
+            "peak_speed_mps": 4.58948989460223,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6003,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.079201067480447,
+            "peak_speed_mps": 4.589487012683894,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6004,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.07107778398446,
+            "peak_speed_mps": 4.5894880404956515,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6005,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.090358422981446,
+            "peak_speed_mps": 4.589493449033165,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6006,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.10231991122391,
+            "peak_speed_mps": 4.589484685587581,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6007,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.0715484936514,
+            "peak_speed_mps": 4.589492271856468,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6008,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.044382319045685,
+            "peak_speed_mps": 4.589488141317835,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6009,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.066075501782347,
+            "peak_speed_mps": 4.589477952902419,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6010,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.11091436590857,
+            "peak_speed_mps": 4.58946760438642,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6011,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.088697561583587,
+            "peak_speed_mps": 4.589490449840604,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      },
+      "stress": {
+        "finish_rate": 0.9166666666666666,
+        "mean_progress": 0.9676111914061672,
+        "median_lap_s": 31.44779722015095,
+        "episodes": [
+          {
+            "seed": 6100,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.423870628269075,
+            "peak_speed_mps": 4.589524719974355,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6101,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.655731867070266,
+            "peak_speed_mps": 4.589484216596582,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6102,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.539451133903658,
+            "peak_speed_mps": 4.58948494519677,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6103,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.472914621854894,
+            "peak_speed_mps": 4.589490352022484,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6104,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.44779722015095,
+            "peak_speed_mps": 4.589491945067224,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6105,
+            "status": "off_track",
+            "progress": 0.611334296874008,
+            "gates": 4,
+            "time_s": 20.180000000000355,
+            "peak_speed_mps": 4.538150754651979,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6106,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.43739404026189,
+            "peak_speed_mps": 4.589497228789713,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6107,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.601038417378618,
+            "peak_speed_mps": 4.589488952900395,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6108,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.438822635644886,
+            "peak_speed_mps": 4.589501842365553,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6109,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.495268462106896,
+            "peak_speed_mps": 4.589486310388871,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6110,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.36999733212186,
+            "peak_speed_mps": 4.58949053018926,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 6111,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 31.418200143380446,
+            "peak_speed_mps": 4.589491224346058,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ]
+      }
+    }
+  ]
+}

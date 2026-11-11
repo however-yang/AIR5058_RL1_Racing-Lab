@@ -1,0 +1,149 @@
+{
+  "episodes": [
+    {
+      "seed": 0,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.580000000001355
+    },
+    {
+      "seed": 1,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.54000000000135
+    },
+    {
+      "seed": 2,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.530000000001348
+    },
+    {
+      "seed": 3,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.570000000001354
+    },
+    {
+      "seed": 4,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.510000000001344
+    },
+    {
+      "seed": 5,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.690000000001373
+    },
+    {
+      "seed": 6,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.61000000000136
+    },
+    {
+      "seed": 7,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.54000000000135
+    },
+    {
+      "seed": 8,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.640000000001365
+    },
+    {
+      "seed": 9,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.650000000001366
+    },
+    {
+      "seed": 10,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.48000000000134
+    },
+    {
+      "seed": 11,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.60000000000136
+    },
+    {
+      "seed": 12,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.530000000001348
+    },
+    {
+      "seed": 13,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.570000000001354
+    },
+    {
+      "seed": 14,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.55000000000135
+    },
+    {
+      "seed": 15,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.60000000000136
+    },
+    {
+      "seed": 16,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.510000000001344
+    },
+    {
+      "seed": 17,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.510000000001344
+    },
+    {
+      "seed": 18,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.61000000000136
+    },
+    {
+      "seed": 19,
+      "status": "finished",
+      "progress": 1.0,
+      "gates": 8,
+      "time_s": 26.560000000001352
+    }
+  ],
+  "finish_rate": 1.0,
+  "mean_progress": 1.0,
+  "median_lap_s": 26.565000000001355,
+  "off_track_rate": 0.0,
+  "timeout_rate": 0.0
+}

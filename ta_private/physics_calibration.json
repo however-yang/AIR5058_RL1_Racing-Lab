@@ -1,0 +1,336 @@
+{
+  "bench": [
+    {
+      "dt_s": 0.01,
+      "peak_straight_mps": 4.588948638972654,
+      "brake_to_point1_s": 1.6500000000000001,
+      "brake_distance_m": 3.935550936589621,
+      "steer_target_rate_rad_s": 1.8500000000000072,
+      "steer_actual_rate_rad_s": 1.9607199235877448,
+      "rolling_steer_rate_rad_s": 1.8733334533762525,
+      "corner_hold_exit_mps": 3.6338368565467865,
+      "corner_brake_exit_mps": 2.508612878868384,
+      "circle_slow_dry": {
+        "entry_mps": 2.9514334007885457,
+        "radius_m": 1.5848910514052368,
+        "slip_mps": 0.1948845899917284,
+        "grip": 1.0000000000000002
+      },
+      "circle_fast_dry": {
+        "entry_mps": 4.585734403416762,
+        "radius_m": 2.4947311946589075,
+        "slip_mps": 0.7101702590537324,
+        "grip": 1.0000000000000002
+      },
+      "circle_mid_dry": {
+        "entry_mps": 3.9352445346831897,
+        "radius_m": 1.8396022940299694,
+        "slip_mps": 0.5110162272758504,
+        "grip": 1.0000000000000002
+      },
+      "circle_slick": {
+        "entry_mps": 3.93524453468319,
+        "radius_m": 1.090008718539647,
+        "slip_mps": 1.4680381435969843,
+        "grip": 1.0000000000000002
+      }
+    },
+    {
+      "dt_s": 0.005,
+      "peak_straight_mps": 4.58892920901918,
+      "brake_to_point1_s": 1.6500000000000001,
+      "brake_distance_m": 3.955621450032579,
+      "steer_target_rate_rad_s": 1.8500000000000183,
+      "steer_actual_rate_rad_s": 1.9867529150139895,
+      "rolling_steer_rate_rad_s": 1.8737114151608947,
+      "corner_hold_exit_mps": 3.759623494036772,
+      "corner_brake_exit_mps": 2.6111632979785178,
+      "circle_slow_dry": {
+        "entry_mps": 2.9514334007885434,
+        "radius_m": 1.6067600431866933,
+        "slip_mps": 0.1773115261922756,
+        "grip": 1.0000000000000002
+      },
+      "circle_fast_dry": {
+        "entry_mps": 4.585638124644857,
+        "radius_m": 2.494631308501549,
+        "slip_mps": 0.6557726266484076,
+        "grip": 1.0000000000000002
+      },
+      "circle_mid_dry": {
+        "entry_mps": 3.935244534683159,
+        "radius_m": 1.7833607581236253,
+        "slip_mps": 0.45200037652910413,
+        "grip": 1.0000000000000002
+      },
+      "circle_slick": {
+        "entry_mps": 3.9352445346831595,
+        "radius_m": 1.0027169023204567,
+        "slip_mps": 1.776435838560913,
+        "grip": 1.0000000000000002
+      }
+    }
+  ],
+  "courses": {
+    "shanghai": {
+      "conservative": {
+        "episodes": [
+          {
+            "seed": 0,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 37.38904737714136,
+            "peak_speed_mps": 4.589502619597065,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 1,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 37.387748246755095,
+            "peak_speed_mps": 4.589500873847949,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 2,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 37.39972806618663,
+            "peak_speed_mps": 4.589495612983348,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ],
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 37.38904737714136,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "full_throttle": {
+        "episodes": [
+          {
+            "seed": 0,
+            "status": "off_track",
+            "progress": 0.16250839092615,
+            "gates": 1,
+            "time_s": 6.549999999999905,
+            "peak_speed_mps": 4.548830797875677,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 1,
+            "status": "off_track",
+            "progress": 0.1894461811614892,
+            "gates": 1,
+            "time_s": 7.6399999999998816,
+            "peak_speed_mps": 4.546910893178556,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 2,
+            "status": "off_track",
+            "progress": 0.16407058499443616,
+            "gates": 1,
+            "time_s": 6.619999999999903,
+            "peak_speed_mps": 4.54318195886231,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ],
+        "finish_rate": 0.0,
+        "mean_progress": 0.1720083856940251,
+        "median_lap_s": null,
+        "off_track_rate": 1.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "fine_conservative": {
+        "episodes": [
+          {
+            "seed": 0,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 37.522857629810716,
+            "peak_speed_mps": 4.589504506671387,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ],
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 37.522857629810716,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "fine_full_throttle": {
+        "episodes": [
+          {
+            "seed": 0,
+            "status": "off_track",
+            "progress": 0.1906241615859185,
+            "gates": 1,
+            "time_s": 7.58999999999986,
+            "peak_speed_mps": 4.545152391462204,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ],
+        "finish_rate": 0.0,
+        "mean_progress": 0.1906241615859185,
+        "median_lap_s": null,
+        "off_track_rate": 1.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      }
+    },
+    "spa": {
+      "conservative": {
+        "episodes": [
+          {
+            "seed": 0,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 30.069588869494613,
+            "peak_speed_mps": 4.589435620100424,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 1,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 30.072835336225065,
+            "peak_speed_mps": 4.589053278753695,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 2,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 30.06637401438302,
+            "peak_speed_mps": 4.589400839951483,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ],
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 30.069588869494613,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "full_throttle": {
+        "episodes": [
+          {
+            "seed": 0,
+            "status": "off_track",
+            "progress": 0.06775667270274147,
+            "gates": 0,
+            "time_s": 3.289999999999974,
+            "peak_speed_mps": 4.172849123524741,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 1,
+            "status": "off_track",
+            "progress": 0.0683871658265529,
+            "gates": 0,
+            "time_s": 3.3399999999999728,
+            "peak_speed_mps": 4.2112859769713555,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          },
+          {
+            "seed": 2,
+            "status": "off_track",
+            "progress": 0.06708624673010964,
+            "gates": 0,
+            "time_s": 3.289999999999974,
+            "peak_speed_mps": 4.222835387315485,
+            "peak_grip": 1.0000000000000002,
+            "peak_slip_mps": null
+          }
+        ],
+        "finish_rate": 0.0,
+        "mean_progress": 0.06774336175313467,
+        "median_lap_s": null,
+        "off_track_rate": 1.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "fine_conservative": {
+        "episodes": [
+          {
+            "seed": 0,
+            "status": "finished",
+            "progress": 1.0,
+            "gates": 8,
+            "time_s": 30.15375491272465,
+            "peak_speed_mps": 4.588835583027385,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ],
+        "finish_rate": 1.0,
+        "mean_progress": 1.0,
+        "median_lap_s": 30.15375491272465,
+        "off_track_rate": 0.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      },
+      "fine_full_throttle": {
+        "episodes": [
+          {
+            "seed": 0,
+            "status": "off_track",
+            "progress": 0.06561387465305599,
+            "gates": 0,
+            "time_s": 3.2349999999999532,
+            "peak_speed_mps": 4.197180623029292,
+            "peak_grip": 1.0000000000000004,
+            "peak_slip_mps": null
+          }
+        ],
+        "finish_rate": 0.0,
+        "mean_progress": 0.06561387465305599,
+        "median_lap_s": null,
+        "off_track_rate": 1.0,
+        "timeout_rate": 0.0,
+        "overspeed_rate": 0.0,
+        "rollover_rate": 0.0,
+        "invalid_action_rate": 0.0
+      }
+    }
+  }
+}

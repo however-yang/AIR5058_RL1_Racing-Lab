@@ -1,0 +1,68 @@
+[
+  {
+    "steps": 32768,
+    "finish_rate": 0.375,
+    "mean_progress": 0.6428584901628499,
+    "median_lap_s": 33.46158425541675
+  },
+  {
+    "steps": 65536,
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 31.724982489219958
+  },
+  {
+    "steps": 98304,
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 31.603924865865327
+  },
+  {
+    "steps": 131072,
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 31.687330737514408
+  },
+  {
+    "steps": 163840,
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 32.02812750553318
+  },
+  {
+    "steps": 196608,
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 31.70527556486678
+  },
+  {
+    "steps": 229376,
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 32.57483529349322
+  },
+  {
+    "steps": 262144,
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 32.49524741383545
+  },
+  {
+    "steps": 294912,
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 32.10382515744108
+  },
+  {
+    "steps": 327680,
+    "finish_rate": 0.875,
+    "mean_progress": 0.9520985104510942,
+    "median_lap_s": 32.10504376584707
+  },
+  {
+    "steps": 327680,
+    "finish_rate": 1.0,
+    "mean_progress": 1.0,
+    "median_lap_s": 32.04869958253992
+  }
+]
