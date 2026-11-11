@@ -1,0 +1,68 @@
+<mujoco model="Course race car">
+  <compiler angle="radian"/>
+  <option timestep="0.01" gravity="0 0 -9.81" integrator="implicitfast" cone="elliptic"/>
+  <visual>
+    <global offwidth="960" offheight="600"/>
+    <headlight active="0"/>
+  </visual>
+  <default>
+    <joint damping=".025" armature=".001"/>
+    <default class="steering">
+      <joint axis="0 0 1" range="-.60 .60" damping=".15"/>
+    </default>
+    <default class="wheel">
+      <joint axis="0 1 0" damping=".0007"/>
+      <geom type="cylinder" size=".086 .032" euler="1.57079633 0 0"
+            contype="0" mass=".105" friction=".90 .005 .0001" rgba=".05 .06 .08 1"/>
+    </default>
+  </default>
+  <worldbody>
+    <light pos="0 0 16" dir="-.15 .2 -1" directional="true" ambient=".38 .38 .38" diffuse=".75 .75 .75" specular="0 0 0"/>
+    <camera name="overview" pos="0 -.7 17.5" fovy="48"/>
+    <geom name="floor" type="plane" size="32 32 .05" conaffinity="0" friction=".90 .005 .0001"
+          rgba=".19 .33 .23 1"/>
+    <body name="car" pos="0 0 .089">
+      <freejoint name="pose"/>
+      <geom name="chassis" type="box" pos="0 0 .045" size=".27 .15 .045" contype="0" mass="1.3"
+            rgba=".06 .54 .92 1"/>
+      <geom type="box" pos=".216 0 .098" size=".042 .128 .012"
+            mass=".01" rgba=".97 .74 .21 1" contype="0" conaffinity="0"/>
+      <body pos=".192 .169 0">
+        <inertial pos="0 0 0" mass=".02" diaginertia=".00001 .00001 .00001"/>
+        <joint name="steer_left" class="steering"/>
+        <body>
+          <joint name="front_left" class="wheel"/>
+          <geom name="front_left_tire" class="wheel"/>
+        </body>
+      </body>
+      <body pos=".192 -.169 0">
+        <inertial pos="0 0 0" mass=".02" diaginertia=".00001 .00001 .00001"/>
+        <joint name="steer_right" class="steering"/>
+        <body>
+          <joint name="front_right" class="wheel"/>
+          <geom name="front_right_tire" class="wheel"/>
+        </body>
+      </body>
+      <body pos="-.192 .169 0">
+        <joint name="rear_left" class="wheel"/>
+        <geom name="rear_left_tire" class="wheel"/>
+      </body>
+      <body pos="-.192 -.169 0">
+        <joint name="rear_right" class="wheel"/>
+        <geom name="rear_right_tire" class="wheel"/>
+      </body>
+    </body>
+  </worldbody>
+  <contact>
+    <pair geom1="floor" geom2="front_left_tire" condim="3" friction=".90 .90 .005 .0001 .0001"/>
+    <pair geom1="floor" geom2="front_right_tire" condim="3" friction=".90 .90 .005 .0001 .0001"/>
+    <pair geom1="floor" geom2="rear_left_tire" condim="3" friction=".90 .90 .005 .0001 .0001"/>
+    <pair geom1="floor" geom2="rear_right_tire" condim="3" friction=".90 .90 .005 .0001 .0001"/>
+  </contact>
+  <actuator>
+    <position joint="steer_left" kp="7" kv=".65" forcerange="-1.2 1.2"/>
+    <position joint="steer_right" kp="7" kv=".65" forcerange="-1.2 1.2"/>
+    <motor joint="rear_left" ctrllimited="true" ctrlrange="-.38 .23"/>
+    <motor joint="rear_right" ctrllimited="true" ctrlrange="-.38 .23"/>
+  </actuator>
+</mujoco>
