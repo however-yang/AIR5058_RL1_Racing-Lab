@@ -1,4 +1,4 @@
-name: mujoco-racing
+name: air5058-racing-student
 channels:
   - conda-forge
 dependencies:

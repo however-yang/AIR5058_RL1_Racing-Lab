@@ -22,9 +22,9 @@ class RaceEnv(gym.Env):
     control_dt = .05
     lookahead = np.array([.6, 1.3, 2.2, 3.5, 5.0])
 
-    def __init__(self, reward_fn=student_reward, render_mode=None, camera="overview", layout="shanghai",
-                 physics_dt=.01, diagnostics=False):
-        self.track = Track(layout)
+    def __init__(self, reward_fn=student_reward, render_mode=None, camera="overview",
+                 physics_dt=.01, diagnostics=False, step_observer=None):
+        self.track = Track()
         self.gate_centers, indices = self.track.sample(self.track.gates)
         self.gate_tangents = self.track.tangents[indices]
         xml = Path(__file__).with_name("car.xml")
@@ -44,6 +44,7 @@ class RaceEnv(gym.Env):
         self.action_space = gym.spaces.Box(-1., 1., (2,), np.float32)
         self.observation_space = gym.spaces.Box(-10., 10., (20,), np.float32)
         self.reward_fn = reward_fn
+        self.step_observer = step_observer
         self.render_mode = render_mode
         self.camera = camera
         self.renderer = None
@@ -118,6 +119,8 @@ class RaceEnv(gym.Env):
             self.segment = segments[0]
             lap = self.track.length
             self.arc += (arcs[0] - self.arc + lap / 2.) % lap - lap / 2.
+            if self.step_observer is not None:
+                self.step_observer(self)
             fraction = self._crossing_fraction(start, self.data.qpos[:2])
             if fraction is not None:
                 self.next_gate += 1

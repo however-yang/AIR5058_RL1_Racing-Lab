@@ -11,8 +11,7 @@ from .visuals import dress_car, dress_world, prop
 class Track:
     half_width = 1.05
 
-    def __init__(self, layout="shanghai"):
-        self.layout = layout
+    def __init__(self):
         # The periodic cubic spline rounds the corners of the control polygon.
         control = np.array([
             # Pit straight and the tightening first spiral.
@@ -33,29 +32,6 @@ class Track:
             [-11.75, -10.95], [-14.60, -10.75], [-15.63, -9.32], [-14.94, -7.85], [-13.20, -6.80],
             [-11.70, -6.65], [-8.85, -6.65], [-7.05, -6.35], [-5.95, -4.65],
         ])
-        if layout == "spa":
-            control = np.array([
-                # Pit straight, La Source and the Eau Rouge–Raidillon sweep.
-                [-10.4, -7.8], [-13.7, -10.15], [-16.0, -10.95],
-                [-17.2, -9.75], [-16.45, -7.5], [-15.1, -5.35],
-                [-13.5, -3.4], [-11.4, -1.55], [-9.75, .85], [-7.6, 2.0],
-                [-5.4, 3.9], [-2.4, 6.05], [2.5, 8.4], [7.35, 10.7],
-                # Kemmel, Les Combes and the wide descent through Bruxelles.
-                [9.8, 11.5], [11.5, 10.55], [13.55, 10.75], [15.25, 9.2],
-                [16.9, 7.3], [17.1, 5.65], [15.6, 4.85], [13.85, 6.10],
-                [12.0, 6.65], [8.9, 4.9], [5.7, 3.65], [4.1, 2.2],
-                # Pouhon, Fagnes and the long arc back from Stavelot.
-                [4.05, .15], [5.35, -1.50], [8.0, -2.35], [10.2, -3.15],
-                [11.0, -4.5], [11.0, -6.25], [12.85, -7.6], [15.0, -8.65],
-                [15.65, -10.2], [14.55, -12.15], [12.75, -13.05], [10.2, -12.45],
-                [7.5, -11.05], [5.25, -9.25], [3.4, -7.05], [1.4, -5.6],
-                # Blanchimont and a softened Bus Stop.
-                [-.5, -5.0], [-2.6, -5.55], [-4.6, -6.45], [-6.2, -6.5],
-                [-7.65, -5.95], [-8.95, -6.75],
-            ])
-        elif layout != "shanghai":
-            raise ValueError(f"Unknown circuit layout: {layout}")
-
         u = np.linspace(0., 1., 32, endpoint=False)[:, None, None]
         weights = ((1. - u)**3, 3. * u**3 - 6. * u**2 + 4.,
                    -3. * u**3 + 3. * u**2 + 3. * u + 1., u**3)

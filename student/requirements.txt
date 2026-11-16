@@ -1,5 +1,4 @@
 mujoco==3.17.0
 gymnasium==1.2.3
-stable-baselines3==2.7.1
 numpy>=1.26,<3
-Pillow>=10
+matplotlib>=3.8
